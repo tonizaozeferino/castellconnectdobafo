@@ -1,0 +1,283 @@
+Projektname: CastellConnect – Digitale Lösungen für den Mittelstand in Bayern
+
+Aufgabe:
+Erstelle ein vollständiges, responsives Website-Projekt mit moderner Architektur (z. B. Next.js oder React + TailwindCSS). Keine Dummy-Inhalte, nur Seitenstruktur, Module und Platzhalter-Komponenten. Jede Seite soll als eigene Datei/Route angelegt werden.
+
+Design-Vorgaben:
+
+Farben: #001f3f (Navy), #3a6d8c (Blau), #6a9ab0 (Hellblau), #ead8b1 (Sand)
+
+Schrift: Sans Serif, modern und gut lesbar
+
+Layout: viel Weißraum, klare CTAs, modulare Sektionen
+
+Navigation: Mega-Menu mit allen Hauptseiten und Unterpunkten
+
+Seitenstruktur & Module
+/ (Startseite)
+
+Hero mit Nutzenversprechen (CTA „Kostenlose Analyse“)
+
+Karten: Leistungen (Web, SEO, Social, E-Mail, Voice, KI-Visuals)
+
+Branchen-Teaser (Handwerk • Gastronomie • Lokale Dienste)
+
+Showroom-Teaser (Demo-Layouts)
+
+Vertrauenssignale (Logos, Mitgliedschaften)
+
+Ablauf in 3 Schritten
+
+Micro-FAQ (3–5 Fragen)
+
+Abschluss-CTA
+
+/leistungen (Übersichtsseite)
+
+Intro (Prozess)
+
+Leistungsraster (6–7 Kacheln mit Links zu Unterseiten)
+
+Prozess & Zusammenarbeit
+
+Tools & Integrationen
+
+CTA
+
+/leistungen/webdesign
+
+Hero
+
+Funktionsmodule (CMS, DSGVO, Performance, Barrierearm)
+
+UX-Bausteine
+
+Wartung & Weiterentwicklung
+
+Onboarding-Checkliste
+
+FAQ + CTA
+
+/leistungen/seo
+
+Audit/Diagnose
+
+GBP-Setup
+
+Onpage-Optimierung
+
+Brancheneinträge
+
+Content-Bausteine
+
+Reporting
+
+FAQ + CTA
+
+/leistungen/social
+
+Redaktionsplan
+
+Content-Produktion
+
+Community & Moderation
+
+Optional Ads
+
+Content-Freigabe
+
+FAQ + CTA
+
+/leistungen/email
+
+DSGVO-konformer Listenaufbau
+
+Standard-Flows
+
+Kampagnen
+
+Reporting
+
+Integrationen
+
+FAQ + CTA
+
+/leistungen/voice
+
+Use-Cases
+
+Gesprächslogik
+
+Integrationen
+
+Reporting
+
+FAQ + CTA
+
+/leistungen/ki-visuals
+
+Visual-Pakete
+
+Kurzvideos
+
+Styleguide
+
+Asset-Ablage
+
+FAQ + CTA
+
+/leistungen/ads (optional)
+
+Kanalwahl
+
+Kampagnenaufbau
+
+Optimierung
+
+Landingpages
+
+FAQ + CTA
+
+/branchen (Hubseite)
+
+Intro (warum Spezialisierung hilft)
+
+Karten für Handwerk, Gastronomie, Lokale Dienste, Regionen
+
+/branchen/handwerk
+
+Ziele, Leistungen, Struktur, Showroom, FAQ + CTA
+
+/branchen/gastro
+
+Reservierung, Buchung, Events
+
+Leistungen (Web, GBP, Social, Video)
+
+Showroom, FAQ + CTA
+
+/branchen/dienste
+
+Ziele, Leistungen, Seitenstruktur
+
+Showroom, FAQ + CTA
+
+/branchen/regionen/[stadt] (Dynamic Routing)
+
+Intro
+
+Leistungen
+
+Kontakt & Karte
+
+CTA
+
+/ressourcen
+
+Blog (Kategorien)
+
+Leitfäden (PDF/Artikel)
+
+Vorlagen
+
+Webinare & Workshops
+
+Tool-Ecke (Mini-SEO-Check, Performance-Test)
+
+Showroom
+
+/ueber-uns
+
+Mission & Werte
+
+Team & Netzwerk
+
+Arbeitsweise
+
+Presse & Medien
+
+Kontakt-Teaser
+
+/kontakt
+
+Kontaktformular (mit Upload)
+
+Terminbuchung (Kalender-Embed)
+
+Adresse & Karte
+
+Telefon & Supportzeiten
+
+Datenschutz-Hinweis
+
+/analyse (Kostenlose Analyse)
+
+Formular (URL, Branche, Region, Ziele)
+
+Prüfungs-Kriterien
+
+Ergebnisformat (Report)
+
+CTA
+
+/portal (Kundenportal)
+
+Dashboard
+
+Berichte
+
+Dateien
+
+Abnahmen
+
+Support
+
+/karriere
+
+Warum CastellConnect
+
+Offene Rollen
+
+Bewerbung
+
+Netzwerk
+
+/newsletter
+
+Themen-Abos
+
+Vorschau vergangener Ausgaben
+
+DSGVO
+
+/faq
+
+Allgemein
+
+Technik
+
+Inhalte
+
+Datenschutz
+
+/rechtliches
+
+Impressum
+
+Datenschutz
+
+AGB
+
+Cookie-Einstellungen
+
+Technik-Wünsche:
+
+Nutze Next.js Pages Router oder React Router
+
+Styling: TailwindCSS
+
+Placeholder-Komponenten für FAQ, Karten, CTA
+
+Navigation + Footer als Layout-Komponenten
+
+Mobile-First, responsive
