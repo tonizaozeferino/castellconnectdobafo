@@ -73,24 +73,24 @@ export default function Home() {
     }
   ];
 
-  const showcaseProjects = [
+  const solutionApproaches = [
     {
-      title: "Handwerk Müller GmbH",
-      description: "Website mit Terminbuchung und Projektgalerie",
+      title: "Handwerk & Bauwesen",
+      description: "Digitale Terminbuchung, Projektgalerien und lokale Sichtbarkeit",
       imageUrl: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300",
-      tags: ["Webdesign", "SEO"]
+      tags: ["Terminbuchung", "Portfolio"]
     },
     {
-      title: "Restaurant Alpenblick",
-      description: "Online-Reservierung und Social Media",
+      title: "Gastronomie & Hotels",
+      description: "Online-Reservierungen, Speisekarten und Event-Marketing",
       imageUrl: "https://images.unsplash.com/photo-1570126618953-d437176e8c79?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300",
-      tags: ["Website", "Social"]
+      tags: ["Reservierung", "Events"]
     },
     {
-      title: "Praxis Dr. Wagner",
-      description: "Patientenportal und Online-Termine",
+      title: "Lokale Dienstleister",
+      description: "Kundenportale, Online-Termine und digitale Beratung",
       imageUrl: "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300",
-      tags: ["Portal", "CRM"]
+      tags: ["Portal", "Beratung"]
     }
   ];
 
@@ -249,35 +249,35 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Showroom Teaser */}
+      {/* Solution Approaches */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-navy mb-6">
-              Unsere Referenzen
+              Unsere Lösungsansätze
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Entdecken Sie erfolgreiche Projekte und lassen Sie sich von unseren 
-              maßgeschneiderten Lösungen inspirieren.
+              Entdecken Sie, wie wir digitale Herausforderungen lösen und 
+              maßgeschneiderte Strategien für verschiedene Branchen entwickeln.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-            {showcaseProjects.map((project, index) => (
+            {solutionApproaches.map((approach, index) => (
               <div key={index} className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
                 <img 
-                  src={project.imageUrl} 
-                  alt={project.title} 
+                  src={approach.imageUrl} 
+                  alt={approach.title} 
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
-                  data-testid={`showcase-image-${index}`}
+                  data-testid={`solution-image-${index}`}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-navy/80 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                  <h3 className="text-xl font-semibold mb-2" data-testid={`showcase-title-${index}`}>{project.title}</h3>
-                  <p className="text-sm text-slate-200 mb-3" data-testid={`showcase-description-${index}`}>{project.description}</p>
+                  <h3 className="text-xl font-semibold mb-2" data-testid={`solution-title-${index}`}>{approach.title}</h3>
+                  <p className="text-sm text-slate-200 mb-3" data-testid={`solution-description-${index}`}>{approach.description}</p>
                   <div className="flex space-x-2">
-                    {project.tags.map((tag, tagIndex) => (
-                      <span key={tagIndex} className="bg-sand/20 text-sand px-2 py-1 rounded text-xs" data-testid={`showcase-tag-${index}-${tagIndex}`}>
+                    {approach.tags.map((tag, tagIndex) => (
+                      <span key={tagIndex} className="bg-sand/20 text-sand px-2 py-1 rounded text-xs" data-testid={`solution-tag-${index}-${tagIndex}`}>
                         {tag}
                       </span>
                     ))}
@@ -289,32 +289,46 @@ export default function Home() {
 
           <div className="text-center">
             <CTAButton 
-              href="/ressourcen" 
+              href="/branchen" 
               size="lg"
-              testId="showroom-cta"
+              testId="solutions-cta"
             >
-              Alle Referenzen ansehen <ArrowRight className="ml-2 h-5 w-5" />
+              Alle Branchen ansehen <ArrowRight className="ml-2 h-5 w-5" />
             </CTAButton>
           </div>
         </div>
       </section>
 
-      {/* Trust Signals */}
+      {/* Quality Standards */}
       <section className="py-20 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-2xl font-semibold text-navy mb-4">Vertrauen Sie auf unsere Expertise</h2>
-            <p className="text-slate-600">Zertifizierte Partner und Mitgliedschaften</p>
+            <h2 className="text-2xl font-semibold text-navy mb-4">Warum CastellConnect?</h2>
+            <p className="text-slate-600">Unsere Qualitätsstandards und Arbeitsweise</p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center opacity-60">
-            {trustSignals.map((signal, index) => (
-              <div key={index} className="bg-white p-6 rounded-lg shadow-sm flex items-center justify-center h-20">
-                <span className="text-slate-400 font-semibold text-sm text-center" data-testid={`trust-signal-${index}`}>
-                  {signal}
-                </span>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="bg-white p-8 rounded-lg shadow-sm text-center">
+              <div className="bg-primary-blue/10 p-4 rounded-full inline-block mb-4">
+                <Clock className="text-primary-blue h-8 w-8" />
               </div>
-            ))}
+              <h3 className="font-semibold text-navy mb-2">Schnelle Umsetzung</h3>
+              <p className="text-slate-600 text-sm">Projekte werden zügig und effizient umgesetzt</p>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-sm text-center">
+              <div className="bg-primary-blue/10 p-4 rounded-full inline-block mb-4">
+                <Check className="text-primary-blue h-8 w-8" />
+              </div>
+              <h3 className="font-semibold text-navy mb-2">DSGVO-Konformität</h3>
+              <p className="text-slate-600 text-sm">Alle Lösungen entsprechen deutschen Datenschutzstandards</p>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-sm text-center">
+              <div className="bg-primary-blue/10 p-4 rounded-full inline-block mb-4">
+                <Phone className="text-primary-blue h-8 w-8" />
+              </div>
+              <h3 className="font-semibold text-navy mb-2">Persönlicher Support</h3>
+              <p className="text-slate-600 text-sm">Direkter Ansprechpartner für alle Ihre Fragen</p>
+            </div>
           </div>
         </div>
       </section>

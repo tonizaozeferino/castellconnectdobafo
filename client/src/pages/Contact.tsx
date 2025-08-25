@@ -185,7 +185,8 @@ export default function Contact() {
                               <Input 
                                 type="tel"
                                 placeholder="089 / 123 456 78" 
-                                {...field} 
+                                {...field}
+                                value={field.value || ""}
                                 data-testid="contact-phone-input"
                               />
                             </FormControl>
@@ -203,7 +204,8 @@ export default function Contact() {
                             <FormControl>
                               <Input 
                                 placeholder="Ihr Unternehmen" 
-                                {...field} 
+                                {...field}
+                                value={field.value || ""}
                                 data-testid="contact-company-input"
                               />
                             </FormControl>
