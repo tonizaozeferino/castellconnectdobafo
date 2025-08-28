@@ -67,10 +67,6 @@ export default function Home() {
       answer: "Ja, alle unsere Websites entsprechen den aktuellen DSGVO-Richtlinien. Wir implementieren Cookie-Banner, Datenschutzerklärung und sichere Datenverarbeitung."
     },
     {
-      question: "Kann ich meine Website selbst bearbeiten?",
-      answer: "Absolut! Wir setzen auf benutzerfreundliche Content-Management-Systeme wie WordPress. Nach einer kurzen Einführung können Sie Inhalte eigenständig pflegen."
-    },
-    {
       question: "Was kostet SEO für lokale Unternehmen?",
       answer: "Unsere SEO-Pakete beginnen bei 299€/Monat und beinhalten Google My Business Optimierung, lokale Suchmaschinenoptimierung und monatliche Reports."
     },
