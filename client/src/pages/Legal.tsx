@@ -121,8 +121,8 @@ export default function Legal() {
                   <CardContent className="space-y-3">
                     <div>
                       <strong>CastellConnect GmbH</strong><br />
-                      Musterstraße 123<br />
-                      80331 München<br />
+                      Wüstenfelden 3<br />
+                      97355 Castell<br />
                       Deutschland
                     </div>
                   </CardContent>
@@ -161,7 +161,7 @@ export default function Legal() {
                   <CardContent className="space-y-3">
                     <div>
                       <strong>Handelsregister:</strong> HRB 123456<br />
-                      <strong>Registergericht:</strong> München<br />
+                      <strong>Registergericht:</strong> Würzburg<br />
                       <strong>Umsatzsteuer-ID:</strong> DE123456789
                     </div>
                   </CardContent>
@@ -206,8 +206,8 @@ export default function Legal() {
                   <p className="text-slate-700">
                     Verantwortlicher für die Datenverarbeitung auf dieser Website ist:<br /><br />
                     <strong>CastellConnect GmbH</strong><br />
-                    Musterstraße 123<br />
-                    80331 München<br />
+                    Wüstenfelden 3<br />
+                    97355 Castell<br />
                     Deutschland<br /><br />
                     E-Mail: datenschutz@castellconnect.de<br />
                     Telefon: 09325 391996

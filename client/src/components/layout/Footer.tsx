@@ -81,7 +81,7 @@ export default function Footer() {
               <MapPin className="text-light-blue h-5 w-5" />
               <div>
                 <div className="font-medium">Adresse</div>
-                <div className="text-slate-300 text-sm">Musterstraße 123, 80331 München</div>
+                <div className="text-slate-300 text-sm">Wüstenfelden 3, 97355 Castell</div>
               </div>
             </div>
             <div className="flex items-center space-x-3">

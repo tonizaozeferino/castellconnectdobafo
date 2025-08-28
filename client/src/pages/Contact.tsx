@@ -368,8 +368,8 @@ export default function Contact() {
                     <div>
                       <h4 className="font-medium text-navy">Adresse</h4>
                       <p className="text-slate-600">
-                        Musterstraße 123<br />
-                        80331 München<br />
+                        Wüstenfelden 3<br />
+                        97355 Castell<br />
                         Bayern
                       </p>
                     </div>
@@ -473,7 +473,7 @@ export default function Contact() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-navy mb-4">So finden Sie uns</h2>
-            <p className="text-slate-600">Besuchen Sie uns in unserem Münchner Büro</p>
+            <p className="text-slate-600">Besuchen Sie uns in unserem Büro in Castell</p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -481,7 +481,7 @@ export default function Contact() {
               <div className="bg-slate-100 rounded-xl p-8 h-80 flex items-center justify-center">
                 <p className="text-slate-500 text-center">
                   🗺️ Google Maps Integration<br />
-                  Musterstraße 123, 80331 München
+                  Wüstenfelden 3, 97355 Castell
                 </p>
               </div>
             </div>

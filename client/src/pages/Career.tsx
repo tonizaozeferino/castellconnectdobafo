@@ -32,7 +32,7 @@ export default function Career() {
     {
       title: "Senior Web Developer",
       type: "Vollzeit",
-      location: "München / Remote",
+      location: "Castell / Remote",
       department: "Entwicklung",
       description: "Entwicklung moderner Websites und Web-Anwendungen mit React, Node.js und modernen Technologien.",
       requirements: [
@@ -46,7 +46,7 @@ export default function Career() {
     {
       title: "SEO Manager",
       type: "Vollzeit",
-      location: "München",
+      location: "Castell",
       department: "Marketing",
       description: "Strategische SEO-Betreuung für mittelständische Kunden mit Fokus auf lokale Suchmaschinenoptimierung.",
       requirements: [
@@ -60,7 +60,7 @@ export default function Career() {
     {
       title: "Social Media Manager",
       type: "Vollzeit / Teilzeit",
-      location: "München / Remote",
+      location: "Castell / Remote",
       department: "Marketing",
       description: "Betreuung von Social Media Kanälen für unsere Kunden und Entwicklung kreativer Content-Strategien.",
       requirements: [
@@ -74,7 +74,7 @@ export default function Career() {
     {
       title: "Werkstudent Marketing",
       type: "Werkstudent",
-      location: "München",
+      location: "Castell",
       department: "Marketing", 
       description: "Unterstützung in verschiedenen Marketing-Bereichen und eigenständige Projektarbeit.",
       requirements: [
