@@ -1,5 +1,6 @@
 import { Link } from "wouter";
-import { MapPin, Phone, Mail, Linkedin, Facebook, Instagram } from "lucide-react";
+import { MapPin, Phone, Mail, Facebook, Instagram } from "lucide-react";
+import { SiTiktok } from "react-icons/si";
 import logoImage from "@assets/Logo Castell Connect Farbe_1756372392621.png";
 
 export default function Footer() {
@@ -23,15 +24,7 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="https://linkedin.com/company/castellconnect" 
-                className="bg-primary-blue p-3 rounded-lg hover:bg-light-blue transition-colors"
-                aria-label="LinkedIn"
-                data-testid="footer-linkedin"
-              >
-                <Linkedin className="h-5 w-5" />
-              </a>
-              <a 
-                href="https://facebook.com/castellconnect" 
+                href="https://www.facebook.com/castellconnect/" 
                 className="bg-primary-blue p-3 rounded-lg hover:bg-light-blue transition-colors"
                 aria-label="Facebook"
                 data-testid="footer-facebook"
@@ -39,12 +32,20 @@ export default function Footer() {
                 <Facebook className="h-5 w-5" />
               </a>
               <a 
-                href="https://instagram.com/castellconnect" 
+                href="https://www.instagram.com/castellconnect/" 
                 className="bg-primary-blue p-3 rounded-lg hover:bg-light-blue transition-colors"
                 aria-label="Instagram"
                 data-testid="footer-instagram"
               >
                 <Instagram className="h-5 w-5" />
+              </a>
+              <a 
+                href="https://www.tiktok.com/@castellconnect" 
+                className="bg-primary-blue p-3 rounded-lg hover:bg-light-blue transition-colors"
+                aria-label="TikTok"
+                data-testid="footer-tiktok"
+              >
+                <SiTiktok className="h-5 w-5" />
               </a>
             </div>
           </div>

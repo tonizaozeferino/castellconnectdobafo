@@ -22,7 +22,7 @@ export default function Social() {
     {
       icon: MessageCircle,
       title: "Social Media Advertising",
-      description: "Gezielte Werbekampagnen auf Facebook, Instagram und LinkedIn für mehr Reichweite und Conversions."
+      description: "Gezielte Werbekampagnen auf Facebook, Instagram und TikTok für mehr Reichweite und Conversions."
     },
     {
       icon: BarChart3,
@@ -34,7 +34,6 @@ export default function Social() {
   const platforms = [
     { name: "Facebook", description: "Reichweite und Community Building", features: ["Business-Seiten Setup", "Zielgruppenanalyse", "Event-Promotion"] },
     { name: "Instagram", description: "Visueller Content und Storytelling", features: ["Stories & Reels", "Shopping Integration", "Influencer Kooperationen"] },
-    { name: "LinkedIn", description: "B2B Networking und Thought Leadership", features: ["Unternehmensseite", "Mitarbeiter-Advocacy", "Lead-Generierung"] },
     { name: "TikTok", description: "Junge Zielgruppen und Trends", features: ["Video-Content", "Hashtag-Strategien", "Trend-Monitoring"] }
   ];
 
@@ -84,11 +83,11 @@ export default function Social() {
   const faqItems = [
     {
       question: "Auf welchen Plattformen sind Sie aktiv?",
-      answer: "Wir betreuen alle relevanten Plattformen: Facebook, Instagram, LinkedIn, TikTok, YouTube und branchenspezifische Netzwerke. Die Auswahl richtet sich nach Ihrer Zielgruppe und Ihren Geschäftszielen."
+      answer: "Wir betreuen alle relevanten Plattformen: Facebook, Instagram, TikTok, YouTube und branchenspezifische Netzwerke. Die Auswahl richtet sich nach Ihrer Zielgruppe und Ihren Geschäftszielen."
     },
     {
       question: "Wie oft wird Content veröffentlicht?",
-      answer: "Die Posting-Frequenz hängt von der Plattform und Ihrem Paket ab. Typischerweise 3-5 Posts pro Woche auf Facebook/Instagram und 1-2 Posts pro Woche auf LinkedIn. Qualität steht vor Quantität."
+      answer: "Die Posting-Frequenz hängt von der Plattform und Ihrem Paket ab. Typischerweise 3-5 Posts pro Woche auf Facebook/Instagram und regelmäßige TikTok-Videos. Qualität steht vor Quantität."
     },
     {
       question: "Können wir eigene Inhalte einbringen?",
