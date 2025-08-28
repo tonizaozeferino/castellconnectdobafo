@@ -184,7 +184,7 @@ export default function Contact() {
                             <FormControl>
                               <Input 
                                 type="tel"
-                                placeholder="089 / 123 456 78" 
+                                placeholder="09325 391996" 
                                 {...field}
                                 value={field.value || ""}
                                 data-testid="contact-phone-input"
@@ -381,8 +381,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-medium text-navy">Telefon</h4>
-                      <a href="tel:+4989123456778" className="text-slate-600 hover:text-primary-blue" data-testid="contact-phone-link">
-                        089 / 123 456 78
+                      <a href="tel:+4909325391996" className="text-slate-600 hover:text-primary-blue" data-testid="contact-phone-link">
+                        09325 391996
                       </a>
                     </div>
                   </div>

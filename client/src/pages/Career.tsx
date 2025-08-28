@@ -367,7 +367,7 @@ export default function Career() {
               <div className="bg-white p-6 rounded-lg">
                 <h3 className="font-semibold text-navy mb-4">Direkter Kontakt</h3>
                 <div className="space-y-2 text-sm text-slate-600">
-                  <div>📞 089 / 123 456 78</div>
+                  <div>📞 09325 391996</div>
                   <div>👤 Lisa Schneider (Geschäftsführung)</div>
                   <div>⏰ Mo-Fr 9:00-18:00 Uhr</div>
                 </div>

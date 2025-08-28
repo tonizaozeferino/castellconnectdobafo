@@ -309,11 +309,11 @@ export default function FAQPage() {
                 Mo-Fr 9:00-18:00 Uhr
               </p>
               <a 
-                href="tel:+4989123456778" 
+                href="tel:+4909325391996" 
                 className="text-primary-blue hover:underline text-sm"
                 data-testid="faq-phone-support"
               >
-                089 / 123 456 78
+                09325 391996
               </a>
             </div>
 

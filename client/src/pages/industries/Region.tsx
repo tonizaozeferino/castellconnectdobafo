@@ -348,7 +348,7 @@ export default function Region() {
               <div className="space-y-4">
                 <div>
                   <label className="text-sm font-medium text-slate-700">Regionale Hotline</label>
-                  <p className="text-lg font-semibold text-primary-blue">089 / 123 456 78</p>
+                  <p className="text-lg font-semibold text-primary-blue">09325 391996</p>
                 </div>
                 <div>
                   <label className="text-sm font-medium text-slate-700">E-Mail</label>

@@ -257,7 +257,7 @@ export default function Analysis() {
                         <FormControl>
                           <Input 
                             type="tel"
-                            placeholder="089 / 123 456 78" 
+                            placeholder="09325 391996" 
                             {...field}
                             value={field.value || ""}
                             data-testid="analysis-phone-input"

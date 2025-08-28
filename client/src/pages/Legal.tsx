@@ -134,7 +134,7 @@ export default function Legal() {
                   </CardHeader>
                   <CardContent className="space-y-3">
                     <div>
-                      <strong>Telefon:</strong> 089 / 123 456 78<br />
+                      <strong>Telefon:</strong> 09325 391996<br />
                       <strong>E-Mail:</strong> info@castellconnect.de<br />
                       <strong>Website:</strong> www.castellconnect.de
                     </div>
@@ -210,7 +210,7 @@ export default function Legal() {
                     80331 München<br />
                     Deutschland<br /><br />
                     E-Mail: datenschutz@castellconnect.de<br />
-                    Telefon: 089 / 123 456 78
+                    Telefon: 09325 391996
                   </p>
                 </CardContent>
               </Card>
@@ -292,7 +292,7 @@ export default function Legal() {
                 <p className="text-slate-700 text-sm">
                   Bei Fragen zum Datenschutz kontaktieren Sie uns unter:<br />
                   E-Mail: datenschutz@castellconnect.de<br />
-                  Telefon: 089 / 123 456 78
+                  Telefon: 09325 391996
                 </p>
               </div>
             </TabsContent>
@@ -517,8 +517,8 @@ export default function Legal() {
               </a>
             </Button>
             <Button variant="outline" data-testid="legal-contact-phone">
-              <a href="tel:+4989123456778" className="flex items-center">
-                089 / 123 456 78
+              <a href="tel:+4909325391996" className="flex items-center">
+                09325 391996
               </a>
             </Button>
           </div>

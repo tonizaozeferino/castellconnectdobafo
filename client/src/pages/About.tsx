@@ -305,7 +305,7 @@ export default function About() {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="text-primary-blue h-5 w-5" />
-                  <span className="text-slate-700">089 / 123 456 78</span>
+                  <span className="text-slate-700">09325 391996</span>
                 </div>
               </div>
             </div>
