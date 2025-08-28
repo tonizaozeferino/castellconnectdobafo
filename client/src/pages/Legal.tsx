@@ -332,98 +332,152 @@ export default function Legal() {
             {/* AGB */}
             <TabsContent value="agb" className="space-y-8">
               <div className="text-center mb-8">
-                <h2 className="text-3xl font-bold text-navy mb-4">Allgemeine Geschäftsbedingungen</h2>
-                <p className="text-slate-600">Gültig ab 01.01.2024</p>
+                <h2 className="text-3xl font-bold text-navy mb-4">Allgemeine Geschäftsbedingungen (AGB)</h2>
+                <p className="text-slate-600">
+                  António Freiherr von Strachwitz<br />
+                  Wüstenfelden 3, 97355 Castell<br />
+                  Stand: August 2025
+                </p>
               </div>
 
               <Card>
                 <CardHeader>
-                  <CardTitle>§ 1 Geltungsbereich</CardTitle>
+                  <CardTitle>1. Geltungsbereich</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-700 text-sm">
-                    Diese Allgemeinen Geschäftsbedingungen gelten für alle Verträge zwischen der CastellConnect GmbH 
-                    und ihren Kunden über die Erbringung von Dienstleistungen im Bereich Webdesign, Online-Marketing und verwandten Services.
+                    Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für alle Verträge zwischen Strachwitz Consulting (im Folgenden "Berater") und seinen Kunden. Abweichende Bedingungen des Kunden gelten nur, wenn sie ausdrücklich schriftlich anerkannt wurden.
                   </p>
                 </CardContent>
               </Card>
 
               <Card>
                 <CardHeader>
-                  <CardTitle>§ 2 Vertragsschluss</CardTitle>
+                  <CardTitle>2. Vertragsabschluss</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-700 text-sm">
-                    Der Vertrag kommt durch die Annahme unseres schriftlichen Angebots durch den Kunden zustande. 
-                    Mündliche Nebenabreden bedürfen der schriftlichen Bestätigung.
+                    Ein Vertrag kommt durch Bestätigung per E-Mail oder durch Unterzeichnung eines Angebots zustande. Angebote sind freibleibend, sofern nicht ausdrücklich als verbindlich bezeichnet.
                   </p>
                 </CardContent>
               </Card>
 
               <Card>
                 <CardHeader>
-                  <CardTitle>§ 3 Leistungsumfang</CardTitle>
+                  <CardTitle>3. Leistungen</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3">
                   <p className="text-slate-700 text-sm">
-                    Der Umfang unserer Leistungen ergibt sich aus der jeweiligen Projektbeschreibung. 
-                    Änderungen und Ergänzungen bedürfen einer schriftlichen Vereinbarung.
+                    Der Berater erbringt Dienstleistungen in den Bereichen:
                   </p>
                   <ul className="list-disc list-inside text-slate-700 text-sm space-y-1">
-                    <li>Webdesign und -entwicklung</li>
-                    <li>Suchmaschinenoptimierung (SEO)</li>
-                    <li>Online-Marketing Services</li>
-                    <li>Wartung und Support</li>
+                    <li>Interim-Management</li>
+                    <li>Strategische Beratung und Coaching</li>
+                    <li>Schulungen, Workshops und Seminare</li>
+                  </ul>
+                  <p className="text-slate-700 text-sm mt-3">
+                    Die konkrete Leistung ergibt sich aus dem jeweiligen Angebot. Ein bestimmter wirtschaftlicher Erfolg wird nicht geschuldet.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>4. Vergütung & Zahlungsbedingungen</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-3">
+                  <ul className="list-disc list-inside text-slate-700 text-sm space-y-2">
+                    <li>Die Vergütung erfolgt auf Basis eines vereinbarten Tagessatzes oder als All-in-Angebot</li>
+                    <li>Nebenkosten (Reisezeit, Spesen, Material) werden gesondert berechnet, sofern nicht ausdrücklich "All-in" vereinbart</li>
+                    <li>Rechnungen sind ohne Abzug innerhalb von 14 Tagen nach Erhalt zahlbar</li>
+                    <li>Bei Zahlungsverzug behält sich der Berater vor, Verzugszinsen nach §288 BGB geltend zu machen</li>
                   </ul>
                 </CardContent>
               </Card>
 
               <Card>
                 <CardHeader>
-                  <CardTitle>§ 4 Mitwirkungspflichten des Kunden</CardTitle>
+                  <CardTitle>5. Absagen & Stornierungen</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-3">
+                  <p className="text-slate-700 text-sm mb-3">
+                    Dies gilt für Workshops, Schulungen und vereinbarte Beratungs-/Projekttage:
+                  </p>
+                  <ul className="list-disc list-inside text-slate-700 text-sm space-y-1">
+                    <li>≥14 Tage vor Termin: kostenfrei</li>
+                    <li>7–13 Tage vor Termin: 50 % des Honorars</li>
+                    <li>&lt;48 Stunden vor Termin oder Nichterscheinen: 100 % des Honorars</li>
+                  </ul>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>6. Haftung</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-3">
+                  <ul className="list-disc list-inside text-slate-700 text-sm space-y-2">
+                    <li>Der Berater haftet nur für Vorsatz und grobe Fahrlässigkeit</li>
+                    <li>Eine Haftung für indirekte Schäden, entgangenen Gewinn oder Folgeschäden ist ausgeschlossen</li>
+                    <li>Für Leistungen und Produkte Dritter (z. B. Softwareanbieter, Dienstleister) wird keine Haftung übernommen</li>
+                  </ul>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>7. Vertraulichkeit</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-700 text-sm">
-                    Der Kunde ist verpflichtet, alle für die Durchführung des Projekts erforderlichen Informationen, 
-                    Materialien und Zugänge rechtzeitig zur Verfügung zu stellen. Verzögerungen durch fehlende 
-                    Mitwirkung gehen zu Lasten des Kunden.
+                    Beide Parteien verpflichten sich zur Vertraulichkeit über alle im Rahmen der Zusammenarbeit erlangten Informationen. Diese Pflicht gilt auch nach Beendigung der Zusammenarbeit.
                   </p>
                 </CardContent>
               </Card>
 
               <Card>
                 <CardHeader>
-                  <CardTitle>§ 5 Vergütung und Zahlungsbedingungen</CardTitle>
+                  <CardTitle>8. Urheber- & Nutzungsrechte</CardTitle>
                 </CardHeader>
-                <CardContent className="space-y-3">
+                <CardContent>
                   <p className="text-slate-700 text-sm">
-                    Die Vergütung ergibt sich aus dem jeweiligen Angebot. Bei Projekten über 3.000€ erfolgt die Zahlung in Raten:
-                  </p>
-                  <ul className="list-disc list-inside text-slate-700 text-sm space-y-1">
-                    <li>50% bei Projektbeginn</li>
-                    <li>30% bei Zwischenabnahme</li>
-                    <li>20% bei Projektabschluss</li>
-                  </ul>
-                  <p className="text-slate-700 text-sm">
-                    Rechnungen sind innerhalb von 14 Tagen ohne Abzug zur Zahlung fällig.
+                    Alle vom Berater erstellten Konzepte, Unterlagen und Präsentationen bleiben dessen geistiges Eigentum. Der Kunde erhält daran ein einfaches, nicht übertragbares Nutzungsrecht für interne Zwecke. Eine Weitergabe an Dritte ist nur mit schriftlicher Zustimmung erlaubt.
                   </p>
                 </CardContent>
               </Card>
 
-              <div className="bg-slate-50 p-6 rounded-lg">
-                <div className="flex items-center justify-between">
-                  <div>
-                    <h3 className="font-semibold text-navy mb-2">Vollständige AGB</h3>
-                    <p className="text-slate-600 text-sm">
-                      Die kompletten Geschäftsbedingungen können Sie als PDF herunterladen.
-                    </p>
-                  </div>
-                  <Button variant="outline" data-testid="download-agb">
-                    <Download className="h-4 w-4 mr-2" />
-                    PDF Download
-                  </Button>
-                </div>
-              </div>
+              <Card>
+                <CardHeader>
+                  <CardTitle>9. Änderungen & Schriftform</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-slate-700 text-sm">
+                    Ergänzungen und Änderungen dieser AGB oder der Verträge bedürfen der Schriftform (z. B. E-Mail, PDF mit Signatur).
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>10. Gerichtsstand & Recht</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-slate-700 text-sm">
+                    Es gilt deutsches Recht. Erfüllungsort und Gerichtsstand ist Würzburg, soweit gesetzlich zulässig.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>11. Salvatorische Klausel</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-slate-700 text-sm">
+                    Sollte eine Bestimmung dieser AGB unwirksam sein, bleibt die Gültigkeit der übrigen Regelungen unberührt.
+                  </p>
+                </CardContent>
+              </Card>
             </TabsContent>
 
             {/* Cookie Settings */}
