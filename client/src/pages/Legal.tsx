@@ -220,34 +220,47 @@ export default function Legal() {
                     97355 Castell<br />
                     Deutschland<br /><br />
                     E-Mail: webmaster@castellconnect.de<br />
-                    Telefon: +49 156 78 55 60 038
+                    Telefon: 09325 391 99 63
                   </p>
                 </CardContent>
               </Card>
 
               <Card>
                 <CardHeader>
-                  <CardTitle>2. Erhebung und Speicherung personenbezogener Daten</CardTitle>
+                  <CardTitle>2. Erhebung und Speicherung personenbezogener Daten sowie Art und Zweck von deren Verwendung</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div>
-                    <h4 className="font-semibold mb-2">Website-Besuch</h4>
-                    <p className="text-slate-700 text-sm">
-                      Bei jedem Aufruf unserer Website erfasst unser System automatisiert Daten und Informationen vom Computersystem des aufrufenden Rechners:
+                    <h4 className="font-semibold mb-2">Beim Besuch der Website</h4>
+                    <p className="text-slate-700 text-sm mb-3">
+                      Beim Aufrufen unserer Website werden durch den auf Ihrem Endgerät zum Einsatz kommenden Browser automatisch Informationen an den Server unserer Website gesendet. Diese Informationen werden temporär in einem sog. Logfile gespeichert. Folgende Informationen werden dabei ohne Ihr Zutun erfasst und bis zur automatisierten Löschung gespeichert:
                     </p>
                     <ul className="list-disc list-inside text-slate-700 text-sm mt-2 space-y-1">
-                      <li>IP-Adresse des zugreifenden Rechners</li>
+                      <li>IP-Adresse des anfragenden Rechners</li>
                       <li>Datum und Uhrzeit des Zugriffs</li>
-                      <li>Browser-Typ und Version</li>
-                      <li>Betriebssystem des zugreifenden Rechners</li>
-                      <li>Aufgerufene Seiten</li>
+                      <li>Name und URL der abgerufenen Datei</li>
+                      <li>Website, von der aus der Zugriff erfolgt (Referrer-URL)</li>
+                      <li>verwendeter Browser und ggf. das Betriebssystem Ihres Rechners</li>
                     </ul>
+                    <p className="text-slate-700 text-sm mt-3">
+                      Die genannten Daten werden durch uns zu folgenden Zwecken verarbeitet:
+                    </p>
+                    <ul className="list-disc list-inside text-slate-700 text-sm mt-2 space-y-1">
+                      <li>Gewährleistung eines reibungslosen Verbindungsaufbaus der Website</li>
+                      <li>Gewährleistung einer komfortablen Nutzung unserer Website</li>
+                      <li>Auswertung der Systemsicherheit und -stabilität</li>
+                    </ul>
+                    <p className="text-slate-700 text-sm mt-2 font-medium">
+                      Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO.
+                    </p>
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">Kontaktformular</h4>
+                    <h4 className="font-semibold mb-2">Bei Kontaktaufnahme per E-Mail</h4>
                     <p className="text-slate-700 text-sm">
-                      Bei Nutzung unseres Kontaktformulars erheben wir folgende Daten: Name, E-Mail-Adresse, 
-                      Telefonnummer (optional), Unternehmen (optional) und Ihre Nachricht.
+                      Wenn Sie uns per E-Mail kontaktieren, werden die von Ihnen mitgeteilten Daten (z. B. Name, E-Mail-Adresse, Telefonnummer, Inhalt der Nachricht) gespeichert, um Ihre Anfrage zu beantworten.
+                    </p>
+                    <p className="text-slate-700 text-sm mt-2 font-medium">
+                      Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen).
                     </p>
                   </div>
                 </CardContent>
@@ -255,56 +268,65 @@ export default function Legal() {
 
               <Card>
                 <CardHeader>
-                  <CardTitle>3. Zweck der Datenverarbeitung</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <ul className="list-disc list-inside text-slate-700 text-sm space-y-2">
-                    <li>Bereitstellung der Website und ihrer Funktionalitäten</li>
-                    <li>Gewährleistung der Systemsicherheit und -stabilität</li>
-                    <li>Bearbeitung von Anfragen über das Kontaktformular</li>
-                    <li>Verbesserung unserer Website (bei Einwilligung in Analytics)</li>
-                  </ul>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <CardTitle>4. Rechtsgrundlage</CardTitle>
+                  <CardTitle>3. Weitergabe von Daten</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-700 text-sm">
-                    Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse) 
-                    für die technische Bereitstellung der Website und Art. 6 Abs. 1 lit. b DSGVO (Vertragsanbahnung) 
-                    für die Bearbeitung von Anfragen.
+                    Eine Übermittlung Ihrer persönlichen Daten an Dritte findet nur statt, soweit dies für die Abwicklung von Vertragsverhältnissen erforderlich ist oder Sie ausdrücklich eingewilligt haben.
                   </p>
                 </CardContent>
               </Card>
 
               <Card>
                 <CardHeader>
-                  <CardTitle>5. Ihre Rechte</CardTitle>
+                  <CardTitle>4. Ihre Rechte</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-slate-700 text-sm mb-4">Sie haben folgende Rechte bezüglich Ihrer personenbezogenen Daten:</p>
+                  <p className="text-slate-700 text-sm mb-3">Sie haben das Recht:</p>
                   <ul className="list-disc list-inside text-slate-700 text-sm space-y-1">
-                    <li>Recht auf Auskunft (Art. 15 DSGVO)</li>
-                    <li>Recht auf Berichtigung (Art. 16 DSGVO)</li>
-                    <li>Recht auf Löschung (Art. 17 DSGVO)</li>
-                    <li>Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)</li>
-                    <li>Recht auf Datenübertragbarkeit (Art. 20 DSGVO)</li>
-                    <li>Recht auf Widerspruch (Art. 21 DSGVO)</li>
+                    <li>gemäß Art. 15 DSGVO Auskunft über Ihre von uns verarbeiteten personenbezogenen Daten zu verlangen</li>
+                    <li>gemäß Art. 16 DSGVO unverzüglich die Berichtigung unrichtiger Daten zu verlangen</li>
+                    <li>gemäß Art. 17 DSGVO die Löschung Ihrer bei uns gespeicherten Daten zu verlangen</li>
+                    <li>gemäß Art. 18 DSGVO die Einschränkung der Verarbeitung zu verlangen</li>
+                    <li>gemäß Art. 20 DSGVO Datenübertragbarkeit zu verlangen</li>
+                    <li>gemäß Art. 21 DSGVO Widerspruch gegen die Verarbeitung einzulegen</li>
                   </ul>
                 </CardContent>
               </Card>
 
-              <div className="bg-primary-blue/10 p-6 rounded-lg">
-                <h3 className="font-semibold text-navy mb-2">Kontakt Datenschutz</h3>
-                <p className="text-slate-700 text-sm">
-                  Bei Fragen zum Datenschutz kontaktieren Sie uns unter:<br />
-                  E-Mail: datenschutz@castellconnect.de<br />
-                  Telefon: 09325 391996
-                </p>
-              </div>
+              <Card>
+                <CardHeader>
+                  <CardTitle>5. Beschwerderecht</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-slate-700 text-sm">
+                    Sie haben das Recht, sich bei der zuständigen Datenschutz-Aufsichtsbehörde zu beschweren.<br /><br />
+                    Zuständig ist das Bayerische Landesamt für Datenschutzaufsicht (BayLDA), Promenade 18, 91522 Ansbach.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>6. Speicherdauer</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-slate-700 text-sm">
+                    Personenbezogene Daten werden gelöscht, sobald der Zweck der Speicherung entfällt oder Sie Ihre Einwilligung widerrufen, es sei denn gesetzliche Aufbewahrungspflichten bestehen.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>7. SSL- bzw. TLS-Verschlüsselung</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-slate-700 text-sm">
+                    Diese Seite nutzt aus Sicherheitsgründen eine SSL-bzw. TLS-Verschlüsselung.
+                  </p>
+                </CardContent>
+              </Card>
             </TabsContent>
 
             {/* AGB */}
