@@ -5,6 +5,7 @@ import FAQ from "@/components/ui/FAQ";
 import CTAButton from "@/components/ui/CTAButton";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
+import heroImage from "@assets/AdobeStock_274670989_1756372521807.jpeg";
 
 export default function Home() {
   const services = [
@@ -123,7 +124,7 @@ export default function Home() {
             </div>
             <div className="relative">
               <img 
-                src="@assets/AdobeStock_274670989_1756372521807.jpeg" 
+                src={heroImage} 
                 alt="Professioneller bayerischer Betriebsinhaber" 
                 className="rounded-xl shadow-2xl"
                 data-testid="hero-image"
