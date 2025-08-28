@@ -40,7 +40,7 @@ Preferred communication style: Simple, everyday language.
 - **Newsletter System**: Subscription management with topic preferences
 
 ### Design System
-- **Color Palette**: Navy (#001f3f), Blue (#3a6d8c), Light Blue (#6a9ab0), Sand (#ead8b1)
+- **Color Palette**: Red (#DC052D), Blue (#0066B2), White (#FFFFFF)
 - **Typography**: Inter font family for modern, readable typography
 - **Components**: Reusable UI components with consistent styling
 - **Responsive Design**: Mobile-first approach with TailwindCSS breakpoints

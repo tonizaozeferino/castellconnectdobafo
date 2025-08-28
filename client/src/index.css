@@ -52,10 +52,10 @@
   --spacing: 0.25rem;
   
   /* CastellConnect Brand Colors */
-  --navy: hsl(207 100% 12.5%);
-  --primary-blue: hsl(204 43.1% 32.2%);
-  --light-blue: hsl(204 29.4% 52.4%);
-  --sand: hsl(42 58.8% 83.5%);
+  --navy: hsl(349 95.6% 44.1%);      /* Red #DC052D */
+  --primary-blue: hsl(206 100% 34.9%); /* Blue #0066B2 */
+  --light-blue: hsl(206 100% 50%);     /* Lighter Blue */
+  --sand: hsl(0 0% 100%);              /* White #FFFFFF */
 }
 
 .dark {
