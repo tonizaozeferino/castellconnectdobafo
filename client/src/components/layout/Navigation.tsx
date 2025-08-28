@@ -3,6 +3,7 @@ import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, ChevronDown, Globe, Search, Share2, Mail, Mic, Wand2, Target } from "lucide-react";
+import logoImage from "@assets/Logo Castell Connect Farbe_1756372392621.png";
 
 export default function Navigation() {
   const [location] = useLocation();
@@ -24,9 +25,11 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" data-testid="logo-link">
-            <div className="text-2xl font-bold text-navy">
-              <span className="text-primary-blue">Castell</span>Connect
-            </div>
+            <img 
+              src={logoImage} 
+              alt="Castell Connect" 
+              className="h-10 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}

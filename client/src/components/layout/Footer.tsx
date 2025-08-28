@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { MapPin, Phone, Mail, Linkedin, Facebook, Instagram } from "lucide-react";
+import logoImage from "@assets/Logo Castell Connect Farbe_1756372392621.png";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -10,8 +11,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-2">
-            <div className="text-2xl font-bold text-white mb-6">
-              <span className="text-light-blue">Castell</span>Connect
+            <div className="mb-6">
+              <img 
+                src={logoImage} 
+                alt="Castell Connect" 
+                className="h-12 w-auto filter brightness-0 invert"
+              />
             </div>
             <p className="text-slate-300 mb-6 max-w-md">
               Digitale Lösungen für den bayerischen Mittelstand. Von der Website bis zum kompletten Online-Marketing – alles aus einer Hand.
