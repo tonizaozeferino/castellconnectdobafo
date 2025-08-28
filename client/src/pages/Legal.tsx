@@ -120,7 +120,7 @@ export default function Legal() {
                   </CardHeader>
                   <CardContent className="space-y-3">
                     <div>
-                      <strong>CastellConnect GmbH</strong><br />
+                      <strong>António Freiherr von Strachwitz</strong><br />
                       Wüstenfelden 3<br />
                       97355 Castell<br />
                       Deutschland
@@ -134,35 +134,22 @@ export default function Legal() {
                   </CardHeader>
                   <CardContent className="space-y-3">
                     <div>
-                      <strong>Telefon:</strong> 09325 391996<br />
-                      <strong>E-Mail:</strong> info@castellconnect.de<br />
-                      <strong>Website:</strong> www.castellconnect.de
+                      <strong>Telefon:</strong> +49 156 78 55 60 038<br />
+                      <strong>E-Mail:</strong> webmaster@strachwitzconsulting.com
                     </div>
                   </CardContent>
                 </Card>
 
                 <Card>
                   <CardHeader>
-                    <CardTitle>Vertretungsberechtigte</CardTitle>
+                    <CardTitle>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</CardTitle>
                   </CardHeader>
                   <CardContent className="space-y-3">
                     <div>
-                      <strong>Geschäftsführung:</strong><br />
-                      Lisa Schneider<br />
-                      Michael Weber
-                    </div>
-                  </CardContent>
-                </Card>
-
-                <Card>
-                  <CardHeader>
-                    <CardTitle>Registereintrag</CardTitle>
-                  </CardHeader>
-                  <CardContent className="space-y-3">
-                    <div>
-                      <strong>Handelsregister:</strong> HRB 123456<br />
-                      <strong>Registergericht:</strong> Würzburg<br />
-                      <strong>Umsatzsteuer-ID:</strong> DE123456789
+                      <strong>António Freiherr von Strachwitz</strong><br />
+                      Wüstenfelden 3<br />
+                      97355 Castell<br />
+                      Deutschland
                     </div>
                   </CardContent>
                 </Card>
@@ -170,21 +157,44 @@ export default function Legal() {
 
               <Card>
                 <CardHeader>
-                  <CardTitle>Haftungsausschluss</CardTitle>
+                  <CardTitle>Haftungsausschluss (Disclaimer)</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4 text-sm">
                   <div>
                     <h4 className="font-semibold mb-2">Haftung für Inhalte</h4>
                     <p className="text-slate-600">
-                      Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. 
-                      Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht unter der Verpflichtung, übermittelte oder gespeicherte fremde Informationen zu überwachen.
+                      Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
+                    </p>
+                    <p className="text-slate-600 mt-2">
+                      Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
                     </p>
                   </div>
                   <div>
                     <h4 className="font-semibold mb-2">Haftung für Links</h4>
                     <p className="text-slate-600">
-                      Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. 
-                      Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen.
+                      Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.
+                    </p>
+                    <p className="text-slate-600 mt-2">
+                      Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold mb-2">Urheberrecht</h4>
+                    <p className="text-slate-600">
+                      Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
+                    </p>
+                    <p className="text-slate-600 mt-2">
+                      Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold mb-2">Online-Streitbeilegung</h4>
+                    <p className="text-slate-600">
+                      Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: 
+                      <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer" className="text-primary underline">https://ec.europa.eu/consumers/odr</a>
+                    </p>
+                    <p className="text-slate-600 mt-2">
+                      Unsere E-Mail-Adresse finden Sie oben im Impressum.
                     </p>
                   </div>
                 </CardContent>
@@ -205,12 +215,12 @@ export default function Legal() {
                 <CardContent>
                   <p className="text-slate-700">
                     Verantwortlicher für die Datenverarbeitung auf dieser Website ist:<br /><br />
-                    <strong>CastellConnect GmbH</strong><br />
+                    <strong>António Freiherr von Strachwitz</strong><br />
                     Wüstenfelden 3<br />
                     97355 Castell<br />
                     Deutschland<br /><br />
-                    E-Mail: datenschutz@castellconnect.de<br />
-                    Telefon: 09325 391996
+                    E-Mail: webmaster@strachwitzconsulting.com<br />
+                    Telefon: +49 156 78 55 60 038
                   </p>
                 </CardContent>
               </Card>
