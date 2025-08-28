@@ -135,7 +135,7 @@ export default function Legal() {
                   <CardContent className="space-y-3">
                     <div>
                       <strong>Telefon:</strong> +49 156 78 55 60 038<br />
-                      <strong>E-Mail:</strong> webmaster@strachwitzconsulting.com
+                      <strong>E-Mail:</strong> webmaster@castellconnect.de
                     </div>
                   </CardContent>
                 </Card>
@@ -219,7 +219,7 @@ export default function Legal() {
                     Wüstenfelden 3<br />
                     97355 Castell<br />
                     Deutschland<br /><br />
-                    E-Mail: webmaster@strachwitzconsulting.com<br />
+                    E-Mail: webmaster@castellconnect.de<br />
                     Telefon: +49 156 78 55 60 038
                   </p>
                 </CardContent>
