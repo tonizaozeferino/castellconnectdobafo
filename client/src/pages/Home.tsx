@@ -60,7 +60,7 @@ export default function Home() {
   const faqItems = [
     {
       question: "Wie lange dauert die Erstellung einer Website?",
-      answer: "Die Entwicklungszeit hängt vom Umfang ab. Eine einfache Website ist in 2-3 Wochen fertig, komplexere Projekte mit Online-Shop oder Buchungssystem benötigen 4-8 Wochen."
+      answer: "Die Entwicklungszeit hängt vom Umfang ab. Eine normale Website ist in der Regel innerhalb einer Woche einsatzbereit. Umfangreichere Projekte mit Funktionen wie Online-Shop oder Buchungssystem benötigen entsprechend etwas mehr Zeit."
     },
     {
       question: "Sind die Websites DSGVO-konform?",
