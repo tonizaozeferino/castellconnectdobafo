@@ -9,40 +9,22 @@ import { Link } from "wouter";
 export default function Home() {
   const services = [
     {
-      title: "Webdesign & Development",
-      description: "Responsive Websites mit CMS, DSGVO-Konformität und optimaler Performance für alle Endgeräte.",
+      title: "Das Digitale Schaufenster",
+      description: "Wir bauen Ihnen eine moderne, professionelle Webseite, die auf jedem Gerät perfekt aussieht und Besucher in Kunden verwandelt.",
       icon: Globe,
       href: "/leistungen/webdesign"
     },
     {
-      title: "SEO & Local Marketing",
-      description: "Google My Business Optimierung, lokale Sichtbarkeit und nachhaltige Suchmaschinenoptimierung.",
+      title: "Die Lokale Auffindbarkeit",
+      description: "Wir sorgen dafür, dass Sie auf Google Maps korrekt erscheinen, damit Kunden in Ihrer Umgebung Sie auch wirklich finden.",
       icon: Search,
       href: "/leistungen/seo"
     },
     {
-      title: "Social Media Management",
-      description: "Redaktionsplanung, Content-Produktion und Community-Management für alle relevanten Kanäle.",
-      icon: Share2,
-      href: "/leistungen/social"
-    },
-    {
-      title: "E-Mail Marketing",
-      description: "DSGVO-konformer Listenaufbau, automatisierte Kampagnen und detailliertes Reporting.",
-      icon: Mail,
-      href: "/leistungen/email"
-    },
-    {
-      title: "Voice & Chatbots",
-      description: "Intelligente Sprachassistenten und Chatbots für verbesserten Kundensupport.",
-      icon: Mic,
-      href: "/leistungen/voice"
-    },
-    {
-      title: "KI-Visual Produktion",
-      description: "KI-gestützte Erstellung von Bildern, Videos und visuellen Inhalten für Ihr Marketing.",
-      icon: Wand2,
-      href: "/leistungen/ki-visuals"
+      title: "Der Schutz des Guten Rufs",
+      description: "Wir helfen Ihnen, Online-Bewertungen zu managen und Ihren wertvollen Ruf im Internet zu schützen.",
+      icon: Check,
+      href: "/leistungen/reputation"
     }
   ];
 
@@ -70,27 +52,6 @@ export default function Home() {
       imageAlt: "Lokale Dienstleister in Bayern",
       features: ["Terminvereinbarung", "Leistungsübersicht", "Kontaktformulare"],
       href: "/branchen/dienste"
-    }
-  ];
-
-  const solutionApproaches = [
-    {
-      title: "Handwerk & Bauwesen",
-      description: "Digitale Terminbuchung, Projektgalerien und lokale Sichtbarkeit",
-      imageUrl: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300",
-      tags: ["Terminbuchung", "Portfolio"]
-    },
-    {
-      title: "Gastronomie & Hotels",
-      description: "Online-Reservierungen, Speisekarten und Event-Marketing",
-      imageUrl: "https://images.unsplash.com/photo-1570126618953-d437176e8c79?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300",
-      tags: ["Reservierung", "Events"]
-    },
-    {
-      title: "Lokale Dienstleister",
-      description: "Kundenportale, Online-Termine und digitale Beratung",
-      imageUrl: "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300",
-      tags: ["Portal", "Beratung"]
     }
   ];
 
@@ -135,10 +96,10 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                Digitale Lösungen für den <span className="text-sand">bayerischen Mittelstand</span>
+                Digitale Sichtbarkeit. <span className="text-sand">Echt Bayerisch.</span> Ergebnis garantiert.
               </h1>
               <p className="text-xl text-slate-200 mb-8 leading-relaxed">
-                Wir bringen Ihr Unternehmen online nach vorne – mit maßgeschneiderten Websites, lokaler SEO-Optimierung und durchdachten Marketing-Strategien.
+                Wir helfen traditionellen, inhabergeführten Betrieben in Bayern, online mehr Kunden zu gewinnen – einfach, verständlich und ohne technischen Aufwand für Sie.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <CTAButton 
@@ -148,7 +109,7 @@ export default function Home() {
                   icon={ChartLine}
                   testId="hero-analyse-button"
                 >
-                  Kostenlose Website-Analyse
+                  Kostenloses Erstgespräch anfordern
                 </CTAButton>
                 <CTAButton 
                   href="/leistungen" 
@@ -162,8 +123,8 @@ export default function Home() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-                alt="Digitales Marketing Team bei der Arbeit" 
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                alt="Professioneller bayerischer Betriebsinhaber" 
                 className="rounded-xl shadow-2xl"
                 data-testid="hero-image"
               />
@@ -183,20 +144,77 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Problems/Pain Points Section */}
+      <section className="py-20 bg-slate-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-navy mb-6">
+              Kommt Ihnen das bekannt vor?
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <div className="bg-white p-8 rounded-xl shadow-lg">
+              <div className="flex items-start space-x-4">
+                <div className="bg-red-100 p-3 rounded-full flex-shrink-0">
+                  <Search className="text-red-600 h-6 w-6" />
+                </div>
+                <div>
+                  <h3 className="font-semibold text-navy mb-2">Unsichtbar bei Google?</h3>
+                  <p className="text-slate-600">Ihre Konkurrenten erscheinen bei Google Maps ganz oben, und Kunden können Sie nicht finden.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl shadow-lg">
+              <div className="flex items-start space-x-4">
+                <div className="bg-red-100 p-3 rounded-full flex-shrink-0">
+                  <Globe className="text-red-600 h-6 w-6" />
+                </div>
+                <div>
+                  <h3 className="font-semibold text-navy mb-2">Veralteter Online-Auftritt?</h3>
+                  <p className="text-slate-600">Ihre Webseite ist über 10 Jahre alt, sieht peinlich aus und bringt kein neues Geschäft.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl shadow-lg">
+              <div className="flex items-start space-x-4">
+                <div className="bg-red-100 p-3 rounded-full flex-shrink-0">
+                  <Phone className="text-red-600 h-6 w-6" />
+                </div>
+                <div>
+                  <h3 className="font-semibold text-navy mb-2">Zu viel Zeit am Telefon?</h3>
+                  <p className="text-slate-600">Sie und Ihre Mitarbeiter verschwenden wertvolle Zeit mit der Beantwortung der immer gleichen Fragen.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl shadow-lg">
+              <div className="flex items-start space-x-4">
+                <div className="bg-red-100 p-3 rounded-full flex-shrink-0">
+                  <Clock className="text-red-600 h-6 w-6" />
+                </div>
+                <div>
+                  <h3 className="font-semibold text-navy mb-2">Keine Zeit für Marketing?</h3>
+                  <p className="text-slate-600">Sie wissen, dass Sie mehr tun sollten, aber Sie müssen ein Geschäft führen.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Services Overview */}
       <section id="leistungen" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-navy mb-6">
-              Unsere digitalen Lösungen
+              Ihr Weg zu mehr Erfolg im Internet – Einfach und unkompliziert.
             </h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Von der professionellen Website bis zur KI-gestützten Content-Produktion – 
-              wir bieten alle Services aus einer Hand.
-            </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             {services.map((service, index) => (
               <ServiceCard
                 key={index}
@@ -249,85 +267,34 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Solution Approaches */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-navy mb-6">
-              Unsere Lösungsansätze
-            </h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Entdecken Sie, wie wir digitale Herausforderungen lösen und 
-              maßgeschneiderte Strategien für verschiedene Branchen entwickeln.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-            {solutionApproaches.map((approach, index) => (
-              <div key={index} className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
-                <img 
-                  src={approach.imageUrl} 
-                  alt={approach.title} 
-                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
-                  data-testid={`solution-image-${index}`}
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-navy/80 to-transparent"></div>
-                <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                  <h3 className="text-xl font-semibold mb-2" data-testid={`solution-title-${index}`}>{approach.title}</h3>
-                  <p className="text-sm text-slate-200 mb-3" data-testid={`solution-description-${index}`}>{approach.description}</p>
-                  <div className="flex space-x-2">
-                    {approach.tags.map((tag, tagIndex) => (
-                      <span key={tagIndex} className="bg-sand/20 text-sand px-2 py-1 rounded text-xs" data-testid={`solution-tag-${index}-${tagIndex}`}>
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <div className="text-center">
-            <CTAButton 
-              href="/branchen" 
-              size="lg"
-              testId="solutions-cta"
-            >
-              Alle Branchen ansehen <ArrowRight className="ml-2 h-5 w-5" />
-            </CTAButton>
-          </div>
-        </div>
-      </section>
-
       {/* Quality Standards */}
       <section className="py-20 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-2xl font-semibold text-navy mb-4">Warum CastellConnect?</h2>
-            <p className="text-slate-600">Unsere Qualitätsstandards und Arbeitsweise</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-navy mb-6">Ihr Partner aus Bayern, für Bayern.</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-lg shadow-sm text-center">
+            <div className="bg-white p-8 rounded-lg shadow-sm">
               <div className="bg-primary-blue/10 p-4 rounded-full inline-block mb-4">
-                <Clock className="text-primary-blue h-8 w-8" />
+                <Globe className="text-primary-blue h-8 w-8" />
               </div>
-              <h3 className="font-semibold text-navy mb-2">Schnelle Umsetzung</h3>
-              <p className="text-slate-600 text-sm">Projekte werden zügig und effizient umgesetzt</p>
+              <h3 className="font-semibold text-navy mb-4">Fokus auf Bayern</h3>
+              <p className="text-slate-600">Wir sind Spezialisten für den bayerischen Markt. Wir verstehen die Kultur und die Herausforderungen lokaler Betriebe.</p>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-sm text-center">
+            <div className="bg-white p-8 rounded-lg shadow-sm">
               <div className="bg-primary-blue/10 p-4 rounded-full inline-block mb-4">
                 <Check className="text-primary-blue h-8 w-8" />
               </div>
-              <h3 className="font-semibold text-navy mb-2">DSGVO-Konformität</h3>
-              <p className="text-slate-600 text-sm">Alle Lösungen entsprechen deutschen Datenschutzstandards</p>
+              <h3 className="font-semibold text-navy mb-4">Klare, Feste Preise</h3>
+              <p className="text-slate-600">Keine undurchsichtigen Stundensätze. Sie wählen aus klaren Paketen mit festen Preisen, damit Sie immer planen können.</p>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-sm text-center">
+            <div className="bg-white p-8 rounded-lg shadow-sm">
               <div className="bg-primary-blue/10 p-4 rounded-full inline-block mb-4">
-                <Phone className="text-primary-blue h-8 w-8" />
+                <ChartLine className="text-primary-blue h-8 w-8" />
               </div>
-              <h3 className="font-semibold text-navy mb-2">Persönlicher Support</h3>
-              <p className="text-slate-600 text-sm">Direkter Ansprechpartner für alle Ihre Fragen</p>
+              <h3 className="font-semibold text-navy mb-4">Fokus auf Ergebnisse</h3>
+              <p className="text-slate-600">Wir verkaufen keine Dienstleistungen, wir liefern Resultate. Ihr Erfolg ist unser Maßstab.</p>
             </div>
           </div>
         </div>
@@ -428,8 +395,7 @@ export default function Home() {
             Bereit für den nächsten Schritt?
           </h2>
           <p className="text-xl text-slate-200 mb-8 leading-relaxed">
-            Lassen Sie uns gemeinsam Ihre digitale Präsenz auf das nächste Level bringen. 
-            Starten Sie mit einer kostenlosen Analyse Ihrer aktuellen Website.
+            Lassen Sie uns in einem unverbindlichen Gespräch herausfinden, wie wir Ihrem Betrieb helfen können. Wir sprechen Klartext, ohne Fachchinesisch.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -440,7 +406,7 @@ export default function Home() {
               icon={ChartLine}
               testId="final-cta-analyse"
             >
-              Kostenlose Website-Analyse
+              Jetzt kostenloses Gespräch vereinbaren
             </CTAButton>
             <span className="text-slate-300">oder</span>
             <a 

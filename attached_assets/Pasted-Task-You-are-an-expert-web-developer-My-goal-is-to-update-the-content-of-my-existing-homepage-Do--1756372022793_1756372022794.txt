@@ -1,0 +1,59 @@
+Task: You are an expert web developer. My goal is to update the content of my existing homepage. Do not change the fundamental layout, design, or CSS styles of the page. Your task is to find the relevant sections on the page and replace the existing text and image placeholders with the new content provided below. The "Testimonials" or "Promise" section should be completely removed.
+
+Content Update Plan (Section by Section):
+
+1. Update the Main "Hero" Section at the top of the page:
+
+h1 Headline: "Digitale Sichtbarkeit. Echt Bayerisch. Ergebnis garantiert."
+
+Paragraph/Sub-headline: "Wir helfen traditionellen, inhabergeführten Betrieben in Bayern, online mehr Kunden zu gewinnen – einfach, verständlich und ohne technischen Aufwand für Sie."
+
+Main Button Text: "Kostenloses Erstgespräch anfordern"
+
+Background Image: Please note to use a new, high-quality photo of a professional Bavarian business owner or craftsman.
+
+2. Update the "Problems" or "Pain Points" Section:
+
+Section Headline: "Kommt Ihnen das bekannt vor?"
+
+Content (replace existing points with these four):
+
+Point 1: "Unsichtbar bei Google? Ihre Konkurrenten erscheinen bei Google Maps ganz oben, und Kunden können Sie nicht finden."
+
+Point 2: "Veralteter Online-Auftritt? Ihre Webseite ist über 10 Jahre alt, sieht peinlich aus und bringt kein neues Geschäft."
+
+Point 3: "Zu viel Zeit am Telefon? Sie und Ihre Mitarbeiter verschwenden wertvolle Zeit mit der Beantwortung der immer gleichen Fragen."
+
+Point 4: "Keine Zeit für Marketing? Sie wissen, dass Sie mehr tun sollten, aber Sie müssen ein Geschäft führen."
+
+3. Update the "Services" or "Solutions" Section:
+
+Section Headline: "Ihr Weg zu mehr Erfolg im Internet – Einfach und unkompliziert."
+
+Content (replace existing services with these three core packages):
+
+Service 1: Title: "Das Digitale Schaufenster" | Description: "Wir bauen Ihnen eine moderne, professionelle Webseite, die auf jedem Gerät perfekt aussieht und Besucher in Kunden verwandelt."
+
+Service 2: Title: "Die Lokale Auffindbarkeit" | Description: "Wir sorgen dafür, dass Sie auf Google Maps korrekt erscheinen, damit Kunden in Ihrer Umgebung Sie auch wirklich finden."
+
+Service 3: Title: "Der Schutz des Guten Rufs" | Description: "Wir helfen Ihnen, Online-Bewertungen zu managen und Ihren wertvollen Ruf im Internet zu schützen."
+
+4. Update the "Why Us?" or "About Us" Section:
+
+Section Headline: "Ihr Partner aus Bayern, für Bayern."
+
+Content (replace existing points with these three):
+
+Point 1: "Fokus auf Bayern" | Description: "Wir sind Spezialisten für den bayerischen Markt. Wir verstehen die Kultur und die Herausforderungen lokaler Betriebe."
+
+Point 2: "Klare, Feste Preise" | Description: "Keine undurchsichtigen Stundensätze. Sie wählen aus klaren Paketen mit festen Preisen, damit Sie immer planen können."
+
+Point 3: "Fokus auf Ergebnisse" | Description: "Wir verkaufen keine Dienstleistungen, wir liefern Resultate. Ihr Erfolg ist unser Maßstab."
+
+5. Update the Final "Call to Action" Section at the bottom:
+
+Section Headline: "Bereit für den nächsten Schritt?"
+
+Paragraph Text: "Lassen Sie uns in einem unverbindlichen Gespräch herausfinden, wie wir Ihrem Betrieb helfen können. Wir sprechen Klartext, ohne Fachchinesisch."
+
+Final Button Text: "Jetzt kostenloses Gespräch vereinbaren"
