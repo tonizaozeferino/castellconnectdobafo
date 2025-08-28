@@ -6,7 +6,7 @@ import CTAButton from "@/components/ui/CTAButton";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 import heroImage from "@assets/AdobeStock_274670989_1756372521807.jpeg";
-import localServicesImage from "@assets/AdobeStock_202103696_1756372746206.jpeg";
+import handwerkImage from "@assets/AdobeStock_202103696_1756372746206.jpeg";
 
 export default function Home() {
   const services = [
@@ -34,8 +34,8 @@ export default function Home() {
     {
       title: "Handwerk",
       description: "Websites und Marketing für Handwerksbetriebe – von der Terminbuchung bis zur Galerie Ihrer Projekte.",
-      imageUrl: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
-      imageAlt: "Handwerksbetrieb in Bayern",
+      imageUrl: handwerkImage,
+      imageAlt: "Professioneller Handwerker in Bayern",
       features: ["Online Terminbuchung", "Projektgalerien", "Lokale SEO"],
       href: "/branchen/handwerk"
     },
@@ -50,8 +50,8 @@ export default function Home() {
     {
       title: "Lokale Dienste",
       description: "Maßgeschneiderte Websites für Dienstleister – Ärzte, Anwälte, Berater und mehr.",
-      imageUrl: localServicesImage,
-      imageAlt: "Professionelle Reinigungsdienstleister in Bayern",
+      imageUrl: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+      imageAlt: "Lokale Dienstleister in Bayern",
       features: ["Terminvereinbarung", "Leistungsübersicht", "Kontaktformulare"],
       href: "/branchen/dienste"
     }
