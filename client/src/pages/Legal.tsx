@@ -134,7 +134,7 @@ export default function Legal() {
                   </CardHeader>
                   <CardContent className="space-y-3">
                     <div>
-                      <strong>Telefon:</strong> +49 156 78 55 60 038<br />
+                      <strong>Telefon:</strong> 09325 391 99 63<br />
                       <strong>E-Mail:</strong> webmaster@castellconnect.de
                     </div>
                   </CardContent>
