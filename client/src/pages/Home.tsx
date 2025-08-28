@@ -6,6 +6,7 @@ import CTAButton from "@/components/ui/CTAButton";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 import heroImage from "@assets/AdobeStock_274670989_1756372521807.jpeg";
+import localServicesImage from "@assets/AdobeStock_202103696_1756372746206.jpeg";
 
 export default function Home() {
   const services = [
@@ -49,8 +50,8 @@ export default function Home() {
     {
       title: "Lokale Dienste",
       description: "Maßgeschneiderte Websites für Dienstleister – Ärzte, Anwälte, Berater und mehr.",
-      imageUrl: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
-      imageAlt: "Lokale Dienstleister in Bayern",
+      imageUrl: localServicesImage,
+      imageAlt: "Professionelle Reinigungsdienstleister in Bayern",
       features: ["Terminvereinbarung", "Leistungsübersicht", "Kontaktformulare"],
       href: "/branchen/dienste"
     }
