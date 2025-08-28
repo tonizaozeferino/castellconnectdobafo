@@ -123,22 +123,11 @@ export default function Home() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                src="@assets/AdobeStock_274670989_1756372521807.jpeg" 
                 alt="Professioneller bayerischer Betriebsinhaber" 
                 className="rounded-xl shadow-2xl"
                 data-testid="hero-image"
               />
-              <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-lg shadow-lg">
-                <div className="flex items-center space-x-4">
-                  <div className="bg-green-100 p-3 rounded-full">
-                    <Check className="text-green-600 h-8 w-8" />
-                  </div>
-                  <div>
-                    <div className="font-semibold text-slate-900" data-testid="hero-stat-customers">150+ zufriedene Kunden</div>
-                    <div className="text-slate-600">in ganz Bayern</div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
