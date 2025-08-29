@@ -49,21 +49,7 @@ export default function About() {
     }
   ];
 
-  const achievements = [
-    { number: "150+", label: "Zufriedene Kunden" },
-    { number: "300+", label: "Erfolgreiche Projekte" },
-    { number: "5", label: "Jahre Erfahrung" },
-    { number: "98%", label: "Kundenzufriedenheit" }
-  ];
 
-  const certifications = [
-    "Google Ads Zertifiziert",
-    "Google Analytics Qualified",
-    "Facebook Marketing Partner",
-    "HubSpot Certified",
-    "WordPress Experte",
-    "DSGVO Compliance Spezialist"
-  ];
 
   return (
     <div>
@@ -159,55 +145,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* Achievements */}
-      <section className="py-20 bg-slate-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-navy mb-6">
-              Unsere Erfolge in Zahlen
-            </h2>
-          </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {achievements.map((achievement, index) => (
-              <div key={index} className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-primary-blue mb-2" data-testid={`achievement-${index}-number`}>
-                  {achievement.number}
-                </div>
-                <div className="text-slate-600" data-testid={`achievement-${index}-label`}>
-                  {achievement.label}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Certifications */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-navy mb-6">
-              Zertifizierungen & Qualifikationen
-            </h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Kontinuierliche Weiterbildung und offizielle Zertifizierungen 
-              garantieren höchste Qualitätsstandards.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {certifications.map((cert, index) => (
-              <div key={index} className="bg-slate-50 p-6 rounded-lg flex items-center space-x-3">
-                <CheckCircle className="text-primary-blue h-6 w-6 flex-shrink-0" />
-                <span className="text-slate-700 font-medium" data-testid={`certification-${index}`}>
-                  {cert}
-                </span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Press & Media */}
       <section className="py-20 bg-slate-50">
@@ -221,7 +159,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="max-w-md mx-auto">
             <div className="bg-white rounded-xl p-8 shadow-sm">
               <h3 className="text-xl font-semibold text-navy mb-4">Pressekontakt</h3>
               <div className="space-y-4">
@@ -233,21 +171,6 @@ export default function About() {
                   <Phone className="text-primary-blue h-5 w-5" />
                   <span className="text-slate-700">09325 391996</span>
                 </div>
-              </div>
-            </div>
-            
-            <div className="bg-white rounded-xl p-8 shadow-sm">
-              <h3 className="text-xl font-semibold text-navy mb-4">Download-Center</h3>
-              <div className="space-y-3">
-                <button className="w-full text-left bg-slate-50 p-3 rounded-lg hover:bg-slate-100 transition-colors" data-testid="download-press-kit">
-                  📄 Pressemappe (PDF, 2.4 MB)
-                </button>
-                <button className="w-full text-left bg-slate-50 p-3 rounded-lg hover:bg-slate-100 transition-colors" data-testid="download-logos">
-                  🎨 Logo-Paket (ZIP, 1.8 MB)
-                </button>
-                <button className="w-full text-left bg-slate-50 p-3 rounded-lg hover:bg-slate-100 transition-colors" data-testid="download-team-photos">
-                  📸 Team-Fotos (ZIP, 5.2 MB)
-                </button>
               </div>
             </div>
           </div>
