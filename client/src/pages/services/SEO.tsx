@@ -120,7 +120,7 @@ export default function SEO() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <CTAButton 
-                  href="/analyse" 
+                  href="/kontakt" 
                   variant="sand" 
                   size="lg"
                   testId="seo-hero-analyse"
@@ -341,7 +341,7 @@ export default function SEO() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <CTAButton 
-              href="/analyse" 
+              href="/kontakt" 
               variant="sand" 
               size="lg"
               testId="seo-final-analyse"

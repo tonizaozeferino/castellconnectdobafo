@@ -90,7 +90,7 @@ export default function Services() {
             wir bieten alle Services aus einer Hand für Ihren digitalen Erfolg.
           </p>
           <CTAButton 
-            href="/analyse" 
+            href="/kontakt" 
             variant="sand" 
             size="lg"
             testId="services-hero-cta"
@@ -196,7 +196,7 @@ export default function Services() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <CTAButton 
-              href="/analyse" 
+              href="/kontakt" 
               variant="sand" 
               size="lg"
               testId="services-bottom-analyse-cta"

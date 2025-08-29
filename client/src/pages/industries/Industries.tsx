@@ -75,7 +75,7 @@ export default function Industries() {
             entwickelt aus jahrelanger Erfahrung und tiefem Verständnis für branchenspezifische Anforderungen.
           </p>
           <CTAButton 
-            href="/analyse" 
+            href="/kontakt" 
             variant="sand" 
             size="lg"
             testId="industries-hero-cta"
@@ -245,7 +245,7 @@ export default function Industries() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <CTAButton 
-              href="/analyse" 
+              href="/kontakt" 
               variant="sand" 
               size="lg"
               testId="industries-final-analyse"

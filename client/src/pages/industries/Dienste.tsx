@@ -143,7 +143,7 @@ export default function Dienste() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <CTAButton 
-                  href="/analyse" 
+                  href="/kontakt" 
                   variant="sand" 
                   size="lg"
                   testId="dienste-hero-analyse"
@@ -365,7 +365,7 @@ export default function Dienste() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <CTAButton 
-              href="/analyse" 
+              href="/kontakt" 
               variant="sand" 
               size="lg"
               testId="dienste-final-analyse"

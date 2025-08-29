@@ -181,7 +181,7 @@ export default function KIVisuals() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <CTAButton 
-                  href="/analyse" 
+                  href="/kontakt" 
                   variant="sand" 
                   size="lg"
                   testId="ki-visuals-hero-analyse"
@@ -423,7 +423,7 @@ export default function KIVisuals() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <CTAButton 
-              href="/analyse" 
+              href="/kontakt" 
               variant="sand" 
               size="lg"
               testId="ki-visuals-final-analyse"

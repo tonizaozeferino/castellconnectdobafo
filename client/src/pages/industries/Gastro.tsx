@@ -130,7 +130,7 @@ export default function Gastro() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <CTAButton 
-                  href="/analyse" 
+                  href="/kontakt" 
                   variant="sand" 
                   size="lg"
                   testId="gastro-hero-analyse"
@@ -342,7 +342,7 @@ export default function Gastro() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <CTAButton 
-              href="/analyse" 
+              href="/kontakt" 
               variant="sand" 
               size="lg"
               testId="gastro-final-analyse"

@@ -96,7 +96,7 @@ export default function Webdesign() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <CTAButton 
-                  href="/analyse" 
+                  href="/kontakt" 
                   variant="sand" 
                   size="lg"
                   testId="webdesign-hero-analyse"
@@ -272,7 +272,7 @@ export default function Webdesign() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <CTAButton 
-              href="/analyse" 
+              href="/kontakt" 
               variant="sand" 
               size="lg"
               testId="webdesign-final-analyse"

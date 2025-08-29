@@ -81,17 +81,6 @@ export default function Navigation() {
                 Branchen
               </Link>
               <Link 
-                href="/ressourcen" 
-                className={`px-3 py-2 text-sm font-medium transition-colors ${
-                  location.startsWith('/ressourcen') 
-                    ? 'text-navy' 
-                    : 'text-slate-700 hover:text-navy'
-                }`}
-                data-testid="nav-ressourcen"
-              >
-                Ressourcen
-              </Link>
-              <Link 
                 href="/ueber-uns" 
                 className={`px-3 py-2 text-sm font-medium transition-colors ${
                   location.startsWith('/ueber-uns') 
@@ -113,9 +102,9 @@ export default function Navigation() {
               >
                 Kontakt
               </Link>
-              <Link href="/analyse" data-testid="cta-analyse">
+              <Link href="/kontakt" data-testid="cta-contact">
                 <Button className="bg-primary-blue text-white hover:bg-navy transition-colors">
-                  Kostenlose Analyse
+                  Kontakt aufnehmen
                 </Button>
               </Link>
             </div>
@@ -149,9 +138,6 @@ export default function Navigation() {
                     <Link href="/branchen" onClick={() => setIsOpen(false)}>
                       <div className="p-2 text-slate-700 hover:text-navy">Branchen</div>
                     </Link>
-                    <Link href="/ressourcen" onClick={() => setIsOpen(false)}>
-                      <div className="p-2 text-slate-700 hover:text-navy">Ressourcen</div>
-                    </Link>
                     <Link href="/ueber-uns" onClick={() => setIsOpen(false)}>
                       <div className="p-2 text-slate-700 hover:text-navy">Über uns</div>
                     </Link>
@@ -160,9 +146,9 @@ export default function Navigation() {
                     </Link>
                   </div>
                   
-                  <Link href="/analyse" onClick={() => setIsOpen(false)}>
+                  <Link href="/kontakt" onClick={() => setIsOpen(false)}>
                     <Button className="w-full bg-primary-blue text-white hover:bg-navy">
-                      Kostenlose Analyse
+                      Kontakt aufnehmen
                     </Button>
                   </Link>
                 </div>

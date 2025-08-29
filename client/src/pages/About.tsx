@@ -197,7 +197,7 @@ export default function About() {
               Jetzt Kontakt aufnehmen
             </CTAButton>
             <CTAButton 
-              href="/analyse" 
+              href="/kontakt" 
               variant="secondary" 
               size="lg"
               testId="about-final-analyse"

@@ -343,7 +343,7 @@ export default function FAQPage() {
               Kostenlose Beratung
             </CTAButton>
             <CTAButton 
-              href="/analyse" 
+              href="/kontakt" 
               variant="secondary" 
               size="lg"
               testId="faq-final-analyse"
