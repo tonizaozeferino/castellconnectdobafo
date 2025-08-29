@@ -1,7 +1,7 @@
 import { Wrench, Calendar, Image, Search, Star, Users, CheckCircle, ArrowRight } from "lucide-react";
 import FAQ from "@/components/ui/FAQ";
 import CTAButton from "@/components/ui/CTAButton";
-import handwerkImage from "@assets/AdobeStock_263751846_1756489972402.jpeg";
+import handwerkImage from "@assets/AdobeStock_263751846_1756490200627.jpeg";
 
 export default function Handwerk() {
   const handwerkGoals = [
