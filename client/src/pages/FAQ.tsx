@@ -57,10 +57,6 @@ export default function FAQPage() {
       answer: "Ja, wir übernehmen gerne den Umzug Ihrer bestehenden Website. Dabei migrieren wir alle Inhalte, richten neue Hosting-Lösungen ein und sorgen dafür, dass alle E-Mail-Adressen und Funktionen weiterhin verfügbar sind. Der Umzug erfolgt ohne Ausfallzeiten."
     },
     {
-      question: "Wie lange dauert die Umsetzung eines Projekts?",
-      answer: "Die Projektdauer hängt vom Umfang ab. Eine Standard-Website ist in 3-4 Wochen fertig, komplexere Projekte mit E-Commerce oder speziellen Funktionen benötigen 6-12 Wochen. Wir besprechen den Zeitrahmen immer transparent im Erstgespräch."
-    },
-    {
       question: "Welche Zahlungskonditionen haben Sie?",
       answer: "Bei größeren Projekten arbeiten wir mit Teilzahlungen: 50% bei Projektstart, 30% bei Zwischenabnahme und 20% bei Fertigstellung. Kleinere Projekte bis 3.000€ werden zur Hälfte bei Start und zur Hälfte bei Abschluss bezahlt. Wir akzeptieren Überweisung und für Stammkunden auch Lastschrift."
     }
