@@ -436,34 +436,43 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Calendar Booking */}
+      {/* Calendar Booking - TidyCal Integration */}
       <section className="py-20 bg-slate-50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white rounded-xl p-8 shadow-lg text-center">
-            <div className="bg-primary-blue p-4 rounded-full inline-block mb-6">
-              <Calendar className="text-white h-8 w-8" />
-            </div>
-            <h2 className="text-2xl font-bold text-navy mb-4">
-              Direkten Beratungstermin buchen
-            </h2>
-            <p className="text-slate-600 mb-8">
-              Bevorzugen Sie ein persönliches Gespräch? Buchen Sie direkt einen 30-minütigen 
-              Beratungstermin in unserem Online-Kalender.
-            </p>
-            
-            <div className="bg-slate-50 p-6 rounded-lg mb-8">
-              <p className="text-sm text-slate-600">
-                📅 Calendly-Integration würde hier implementiert werden<br />
-                Verfügbare Zeiten: Mo-Fr 9:00-18:00 Uhr
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-white rounded-xl p-8 shadow-lg">
+            <div className="text-center mb-8">
+              <div className="bg-primary-blue p-4 rounded-full inline-block mb-6">
+                <Calendar className="text-white h-8 w-8" />
+              </div>
+              <h2 className="text-2xl font-bold text-navy mb-4">
+                Direkten Beratungstermin buchen
+              </h2>
+              <p className="text-slate-600 mb-6">
+                Bevorzugen Sie ein persönliches Gespräch? Buchen Sie direkt einen 30-minütigen 
+                Beratungstermin für eine kostenlose Erstberatung.
               </p>
             </div>
-
-            <Button 
-              className="bg-primary-blue hover:bg-navy text-white px-8 py-3"
-              data-testid="calendar-booking-button"
-            >
-              Termin buchen
-            </Button>
+            
+            {/* TidyCal Embed */}
+            <div className="w-full" style={{ minHeight: '600px' }}>
+              <iframe
+                src="https://tidycal.com/antoniovonstrachwitz/websiteonlinemeeting"
+                width="100%"
+                height="600"
+                frameBorder="0"
+                scrolling="no"
+                title="Beratungstermin buchen"
+                className="rounded-lg"
+                data-testid="tidycal-booking-iframe"
+              />
+            </div>
+            
+            <div className="mt-6 text-center">
+              <p className="text-sm text-slate-600">
+                <strong>Hinweis:</strong> Der Termin findet online statt. Sie erhalten nach der Buchung 
+                alle Zugangsdaten per E-Mail.
+              </p>
+            </div>
           </div>
         </div>
       </section>
