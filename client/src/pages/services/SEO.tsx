@@ -88,7 +88,7 @@ export default function SEO() {
   const faqItems = [
     {
       question: "Wie lange dauert es, bis SEO-Maßnahmen wirken?",
-      answer: "Erste Verbesserungen sind meist nach einem Monat sichtbar. Für stabile Top-Rankings sollten Sie 6-12 Monate einplanen. Lokale SEO-Maßnahmen wirken oft schneller als überregionale Optimierungen."
+      answer: "Erste Verbesserungen sind meist nach einem Monat sichtbar. Für stabile Top-Rankings sollten Sie 1-2 Monate einplanen. Lokale SEO-Maßnahmen wirken oft schneller als überregionale Optimierungen."
     },
     {
       question: "Kann ich SEO auch selbst machen?",
