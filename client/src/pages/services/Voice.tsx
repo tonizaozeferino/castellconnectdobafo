@@ -103,10 +103,6 @@ export default function Voice() {
       question: "Wie lange dauert die Entwicklung eines Chatbots?",
       answer: "Ein Standard-Chatbot ist in 2-4 Wochen einsatzbereit. Komplexere Lösungen mit vielen Integrationen benötigen 6-12 Wochen Entwicklungszeit."
     },
-    {
-      question: "Was kostet ein professioneller Chatbot?",
-      answer: "Die Kosten beginnen bei 499€/Monat für Standard-Lösungen. Der Preis richtet sich nach Komplexität, Integrationen und dem Gesprächsvolumen."
-    }
   ];
 
   return (
