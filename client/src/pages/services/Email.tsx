@@ -115,10 +115,6 @@ export default function Email() {
       answer: "Die optimale Frequenz hängt von Ihrer Branche und Zielgruppe ab. Typisch sind 1-2 Newsletter pro Monat plus automatisierte E-Mails. Qualität ist wichtiger als Quantität."
     },
     {
-      question: "Was kostet professionelles E-Mail-Marketing?",
-      answer: "Unsere E-Mail-Marketing Pakete beginnen bei 199€/Monat inklusive Tool-Kosten, Setup und Betreuung. Der Preis richtet sich nach Listengröße und Kampagnen-Umfang."
-    },
-    {
       question: "Wie messe ich den Erfolg meiner E-Mail-Kampagnen?",
       answer: "Wir tracken alle relevanten KPIs wie Öffnungsraten, Klickraten, Conversions und ROI. Monatliche Reports zeigen die Performance und Optimierungspotentiale transparent auf."
     }
