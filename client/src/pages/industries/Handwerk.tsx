@@ -1,6 +1,7 @@
 import { Wrench, Calendar, Image, Search, Star, Users, CheckCircle, ArrowRight } from "lucide-react";
 import FAQ from "@/components/ui/FAQ";
 import CTAButton from "@/components/ui/CTAButton";
+import handwerkImage from "@assets/AdobeStock_263751846_1756489972402.jpeg";
 
 export default function Handwerk() {
   const handwerkGoals = [
@@ -113,7 +114,7 @@ export default function Handwerk() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                src={handwerkImage} 
                 alt="Handwerker bei der Arbeit in Bayern" 
                 className="rounded-xl shadow-2xl"
               />
