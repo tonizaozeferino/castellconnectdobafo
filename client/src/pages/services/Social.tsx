@@ -138,8 +138,8 @@ export default function Social() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-                alt="Social Media Marketing Team" 
+                src="@assets/AdobeStock_257538654_1756475809831.jpeg" 
+                alt="Social Media Marketing" 
                 className="rounded-xl shadow-2xl"
               />
             </div>
