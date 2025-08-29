@@ -2,6 +2,7 @@ import { Mic, MessageCircle, Phone, Settings, BarChart3, Zap, CheckCircle, Arrow
 import FAQ from "@/components/ui/FAQ";
 import CTAButton from "@/components/ui/CTAButton";
 import robotHand from "@assets/AdobeStock_489496398_1756476623151.jpeg";
+import aiImage from "@assets/picture2jpeg_1756477373829.jpeg";
 
 export default function Voice() {
   const voiceServices = [
@@ -239,7 +240,7 @@ export default function Voice() {
             </div>
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" 
+                src={aiImage} 
                 alt="KI Gesprächslogik und Natural Language Processing" 
                 className="rounded-xl shadow-lg"
               />
