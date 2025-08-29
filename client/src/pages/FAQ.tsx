@@ -46,7 +46,7 @@ export default function FAQPage() {
     },
     {
       question: "Bieten Sie auch Wartung und Support an?",
-      answer: "Ja, wir bieten umfassende Wartungsverträge ab 89€/Monat. Diese beinhalten regelmäßige Updates, Backups, Sicherheitsüberwachung, technischen Support und kleinere Anpassungen. Für größere Projekte gibt es erweiterte Wartungspakete."
+      answer: "Ja, wir bieten umfassende Wartungsverträge. Diese beinhalten regelmäßige Updates, Backups, Sicherheitsüberwachung, technischen Support und kleinere Anpassungen. Für größere Projekte gibt es erweiterte Wartungspakete."
     },
     {
       question: "Arbeiten Sie nur mit Unternehmen aus Bayern?",
