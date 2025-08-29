@@ -30,7 +30,6 @@ export default function Webdesign() {
     "Intuitive Navigation und Menüstrukturen",
     "Klare Call-to-Action Buttons für Conversions",
     "Optimierte Formulare mit Spam-Schutz",
-    "Barrierefreie Gestaltung (WCAG 2.1)",
     "Suchfunktion für bessere Nutzererfahrung",
     "Kontaktmöglichkeiten auf jeder Seite"
   ];
@@ -209,14 +208,6 @@ export default function Webdesign() {
             ))}
           </div>
 
-          <div className="text-center mt-12">
-            <p className="text-slate-600 mb-6">
-              Wartungsverträge ab 89€/Monat – damit Sie sich auf Ihr Business konzentrieren können.
-            </p>
-            <CTAButton href="/kontakt" testId="maintenance-cta">
-              Wartungsvertrag anfragen
-            </CTAButton>
-          </div>
         </div>
       </section>
 
