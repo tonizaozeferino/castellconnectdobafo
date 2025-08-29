@@ -45,10 +45,6 @@ export default function FAQPage() {
       answer: "Wir spezialisieren uns auf kleine und mittlere Unternehmen in Bayern, insbesondere Handwerksbetriebe, Gastronomie, lokale Dienstleister wie Ärzte und Anwälte, sowie Einzelhändler. Unsere Lösungen sind speziell auf die Bedürfnisse des bayerischen Mittelstands zugeschnitten."
     },
     {
-      question: "Was kostet eine Website bei CastellConnect?",
-      answer: "Die Kosten variieren je nach Umfang und Anforderungen. Eine einfache Unternehmenswebsite beginnt bei 2.490€, während komplexere Projekte mit Online-Shop oder Buchungssystem zwischen 5.000€ und 15.000€ kosten. Wir erstellen immer ein individuelles Angebot basierend auf Ihren spezifischen Bedürfnissen."
-    },
-    {
       question: "Bieten Sie auch Wartung und Support an?",
       answer: "Ja, wir bieten umfassende Wartungsverträge ab 89€/Monat. Diese beinhalten regelmäßige Updates, Backups, Sicherheitsüberwachung, technischen Support und kleinere Anpassungen. Für größere Projekte gibt es erweiterte Wartungspakete."
     },

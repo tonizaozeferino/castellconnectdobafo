@@ -69,10 +69,6 @@ export default function Handwerk() {
       answer: "Kunden können direkt auf Ihrer Website freie Termine einsehen und buchen. Sie erhalten automatisch eine Benachrichtigung und können den Termin bestätigen oder anpassen."
     },
     {
-      question: "Was kostet eine Handwerker-Website?",
-      answer: "Unsere Handwerker-Websites beginnen bei 2.490€ inklusive Online-Terminbuchung, Projekt-Galerie und lokalem SEO. Monatliche Wartung ab 89€."
-    },
-    {
       question: "Wie lange dauert die Erstellung einer Handwerker-Website?",
       answer: "Eine Standard-Handwerker-Website ist in 3-4 Wochen einsatzbereit. Mit Terminbuchung und umfangreicher Galerie 4-6 Wochen."
     },
