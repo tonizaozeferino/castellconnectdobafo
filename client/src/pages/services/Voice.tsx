@@ -1,6 +1,7 @@
 import { Mic, MessageCircle, Phone, Settings, BarChart3, Zap, CheckCircle, ArrowRight } from "lucide-react";
 import FAQ from "@/components/ui/FAQ";
 import CTAButton from "@/components/ui/CTAButton";
+import robotHand from "@assets/AdobeStock_489496398_1756476623151.jpeg";
 
 export default function Voice() {
   const voiceServices = [
@@ -142,7 +143,7 @@ export default function Voice() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                src={robotHand} 
                 alt="Voice AI und Chatbot Technologie" 
                 className="rounded-xl shadow-2xl"
               />
