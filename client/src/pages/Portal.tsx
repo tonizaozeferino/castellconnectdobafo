@@ -388,7 +388,7 @@ export default function Portal() {
                         <h4 className="font-medium mb-2">Direkte Kontakte</h4>
                         <div className="space-y-2 text-sm">
                           <div>📧 support@castellconnect.de</div>
-                          <div>📞 09325 391996</div>
+                          <div>📞 09325 391 99 63</div>
                           <div>💬 WhatsApp: +49 159 123 456 78</div>
                         </div>
                       </div>

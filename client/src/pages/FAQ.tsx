@@ -301,11 +301,11 @@ export default function FAQPage() {
                 Mo-Fr 9:00-18:00 Uhr
               </p>
               <a 
-                href="tel:+4909325391996" 
+                href="tel:+49932539199" 
                 className="text-primary-blue hover:underline text-sm"
                 data-testid="faq-phone-support"
               >
-                09325 391996
+                09325 391 99 63
               </a>
             </div>
 

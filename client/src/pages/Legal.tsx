@@ -603,8 +603,8 @@ export default function Legal() {
               </a>
             </Button>
             <Button variant="outline" data-testid="legal-contact-phone">
-              <a href="tel:+4909325391996" className="flex items-center">
-                09325 391996
+              <a href="tel:+49932539199" className="flex items-center">
+                09325 391 99 63
               </a>
             </Button>
           </div>

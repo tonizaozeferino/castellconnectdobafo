@@ -393,12 +393,12 @@ export default function Home() {
             </CTAButton>
             <span className="text-slate-300">oder</span>
             <a 
-              href="tel:+4909325391996" 
+              href="tel:+49932539199" 
               className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-navy transition-colors inline-flex items-center"
               data-testid="final-cta-phone"
             >
               <Phone className="mr-2 h-5 w-5" />
-              09325 391996
+              09325 391 99 63
             </a>
           </div>
 
