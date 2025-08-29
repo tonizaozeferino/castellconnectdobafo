@@ -25,29 +25,6 @@ export default function About() {
     }
   ];
 
-  const team = [
-    {
-      name: "Lisa Schneider",
-      role: "Geschäftsführerin & SEO-Expertin",
-      description: "15 Jahre Erfahrung im digitalen Marketing mit Fokus auf lokale Suchmaschinenoptimierung.",
-      expertise: ["SEO-Strategien", "Content-Marketing", "Projektmanagement"],
-      imageUrl: "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
-    },
-    {
-      name: "Michael Weber",
-      role: "Lead Developer & UX Designer",
-      description: "Spezialist für responsive Webdesign und benutzerfreundliche Website-Architekturen.",
-      expertise: ["Webentwicklung", "UX/UI Design", "Performance-Optimierung"],
-      imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
-    },
-    {
-      name: "Anna Müller",
-      role: "Social Media & Content Managerin",
-      description: "Kreative Köpfin für authentische Social Media Strategien und ansprechende Inhalte.",
-      expertise: ["Social Media Marketing", "Content-Erstellung", "Community Management"],
-      imageUrl: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
-    }
-  ];
 
   const workingMethod = [
     {
@@ -150,57 +127,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* Team & Network */}
-      <section className="py-20 bg-slate-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-navy mb-6">
-              Unser Team
-            </h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Lernen Sie die Experten kennen, die Ihren digitalen Erfolg vorantreiben.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {team.map((member, index) => (
-              <div key={index} className="bg-white rounded-xl shadow-lg overflow-hidden">
-                <img 
-                  src={member.imageUrl} 
-                  alt={member.name}
-                  className="w-full h-64 object-cover"
-                  data-testid={`team-member-${index}-image`}
-                />
-                <div className="p-8">
-                  <h3 className="text-xl font-semibold text-navy mb-2" data-testid={`team-member-${index}-name`}>
-                    {member.name}
-                  </h3>
-                  <p className="text-primary-blue font-medium mb-4" data-testid={`team-member-${index}-role`}>
-                    {member.role}
-                  </p>
-                  <p className="text-slate-600 mb-6" data-testid={`team-member-${index}-description`}>
-                    {member.description}
-                  </p>
-                  <div>
-                    <h4 className="font-medium text-navy mb-3">Expertise:</h4>
-                    <div className="flex flex-wrap gap-2">
-                      {member.expertise.map((skill, skillIndex) => (
-                        <span 
-                          key={skillIndex} 
-                          className="bg-primary-blue/10 text-primary-blue px-3 py-1 rounded-full text-sm"
-                          data-testid={`team-member-${index}-skill-${skillIndex}`}
-                        >
-                          {skill}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Working Method */}
       <section className="py-20 bg-white">
