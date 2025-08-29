@@ -20,12 +20,10 @@ import Handwerk from "@/pages/industries/Handwerk";
 import Gastro from "@/pages/industries/Gastro";
 import Dienste from "@/pages/industries/Dienste";
 import Region from "@/pages/industries/Region";
-import Resources from "@/pages/Resources";
 import About from "@/pages/About";
 import Contact from "@/pages/Contact";
 import Analysis from "@/pages/Analysis";
 import Portal from "@/pages/Portal";
-import Newsletter from "@/pages/Newsletter";
 import FAQ from "@/pages/FAQ";
 import Legal from "@/pages/Legal";
 import NotFound from "@/pages/not-found";
@@ -54,12 +52,10 @@ function Router() {
         <Route path="/branchen/regionen/:stadt" component={Region} />
         
         {/* Other Pages */}
-        <Route path="/ressourcen" component={Resources} />
         <Route path="/ueber-uns" component={About} />
         <Route path="/kontakt" component={Contact} />
         <Route path="/analyse" component={Analysis} />
         <Route path="/portal" component={Portal} />
-        <Route path="/newsletter" component={Newsletter} />
         <Route path="/faq" component={FAQ} />
         <Route path="/rechtliches" component={Legal} />
         
