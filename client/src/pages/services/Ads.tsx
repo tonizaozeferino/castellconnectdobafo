@@ -119,10 +119,6 @@ export default function Ads() {
 
   const faqItems = [
     {
-      question: "Wie hoch sollte mein Werbebudget sein?",
-      answer: "Das hängt von Ihrer Branche und Ihren Zielen ab. Für lokale Unternehmen empfehlen wir mindestens 500-1.000€/Monat für messbare Ergebnisse. Größere Märkte und konkurrierende Branchen benötigen höhere Budgets."
-    },
-    {
       question: "Wie schnell sehe ich Ergebnisse bei Google Ads?",
       answer: "Erste Daten sehen Sie sofort, aussagekräftige Optimierungen sind nach 2-4 Wochen möglich. Für stabile Performance und optimale Ergebnisse sollten Sie 3 Monate einplanen."
     },
