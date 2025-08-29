@@ -1,6 +1,7 @@
 import { Share2, Calendar, Camera, Users, MessageCircle, BarChart3, CheckCircle, ArrowRight } from "lucide-react";
 import FAQ from "@/components/ui/FAQ";
 import CTAButton from "@/components/ui/CTAButton";
+import netflixLogo from "@assets/AdobeStock_257538654_1756475809831.jpeg";
 
 export default function Social() {
   const socialServices = [
@@ -138,7 +139,7 @@ export default function Social() {
             </div>
             <div className="relative">
               <img 
-                src="@assets/AdobeStock_257538654_1756475809831.jpeg" 
+                src={netflixLogo} 
                 alt="Social Media Marketing" 
                 className="rounded-xl shadow-2xl"
               />
