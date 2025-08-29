@@ -67,7 +67,7 @@ export default function Voice() {
   const integrationOptions = [
     { name: "CRM-Systeme", description: "HubSpot, Salesforce, Pipedrive" },
     { name: "Terminbuchung", description: "Calendly, Acuity, Google Calendar" },
-    { name: "E-Commerce", description: "Shopify, WooCommerce, Magento" },
+    { name: "E-Commerce", description: "Shopify, Custom APIs, Magento" },
     { name: "Support-Tools", description: "Zendesk, Freshdesk, Intercom" },
     { name: "Analytics", description: "Google Analytics, Custom Dashboards" },
     { name: "Payment", description: "Stripe, PayPal, SEPA" }

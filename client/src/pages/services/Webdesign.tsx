@@ -36,7 +36,7 @@ export default function Webdesign() {
   ];
 
   const maintenanceServices = [
-    "Regelmäßige WordPress & Plugin Updates",
+    "Regelmäßige System- und Sicherheitsupdates",
     "Tägliche automatische Backups",
     "Sicherheits-Monitoring und Malware-Schutz",
     "Performance-Überwachung und Optimierung",
@@ -60,7 +60,7 @@ export default function Webdesign() {
   const faqItems = [
     {
       question: "Welches Content Management System verwenden Sie?",
-      answer: "Wir arbeiten hauptsächlich mit WordPress, da es benutzerfreundlich, SEO-optimiert und erweiterbar ist. Je nach Anforderung setzen wir auch auf Shopify für E-Commerce oder individuelle Lösungen."
+      answer: "Wir entwickeln moderne, maßgeschneiderte Websites mit aktuellen Webtechnologien wie React und Next.js. Diese sind schnell, sicher und perfekt für Suchmaschinen optimiert. Für E-Commerce setzen wir auf Shopify oder individuelle Lösungen."
     },
     {
       question: "Kann ich meine Website selbst bearbeiten?",

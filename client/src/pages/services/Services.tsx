@@ -67,7 +67,7 @@ export default function Services() {
   ];
 
   const tools = [
-    "WordPress & Shopify",
+    "React & Next.js",
     "Google Analytics & Search Console", 
     "Meta Business Manager",
     "Mailchimp & Klaviyo",

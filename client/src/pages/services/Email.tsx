@@ -93,8 +93,8 @@ export default function Email() {
   const integrations = [
     "Mailchimp & Klaviyo",
     "HubSpot & Salesforce",
-    "Shopify & WooCommerce",
-    "WordPress & Webflow",
+    "Shopify & Custom APIs",
+    "React & Next.js",
     "Google Analytics",
     "Facebook Pixel",
     "Zapier & Make",

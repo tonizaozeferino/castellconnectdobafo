@@ -65,7 +65,7 @@ export default function FAQPage() {
   const technikFAQs = [
     {
       question: "Welches Content Management System verwenden Sie?",
-      answer: "Wir arbeiten hauptsächlich mit WordPress, da es benutzerfreundlich, SEO-optimiert und sehr flexibel ist. Für E-Commerce-Projekte setzen wir auf WooCommerce oder Shopify. Bei speziellen Anforderungen entwickeln wir auch maßgeschneiderte Lösungen mit modernen Frameworks wie React oder Next.js."
+      answer: "Wir entwickeln moderne, maßgeschneiderte Websites mit aktuellen Webtechnologien wie React und Next.js. Für E-Commerce-Projekte setzen wir auf Shopify oder individuelle Lösungen. Alle Websites sind schnell, sicher und benutzerfreundlich gestaltet."
     },
     {
       question: "Sind die Websites für Mobilgeräte optimiert?",
@@ -89,7 +89,7 @@ export default function FAQPage() {
     },
     {
       question: "Können Sie auch E-Commerce-Shops erstellen?",
-      answer: "Ja, wir entwickeln Online-Shops mit WooCommerce oder Shopify. Diese beinhalten Produktkataloge, Warenkorb, verschiedene Zahlungsmethoden, Versandkostenberechnung und Anbindung an Buchhaltungssysteme. Auch B2B-Shops mit speziellen Preisen sind möglich."
+      answer: "Ja, wir entwickeln Online-Shops mit Shopify oder individuellen Lösungen. Diese beinhalten Produktkataloge, Warenkorb, verschiedene Zahlungsmethoden, Versandkostenberechnung und Anbindung an Buchhaltungssysteme. Auch B2B-Shops mit speziellen Preisen sind möglich."
     },
     {
       question: "Ist eine Anbindung an mein Kassensystem möglich?",

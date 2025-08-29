@@ -77,7 +77,7 @@ export default function Home() {
     "HWK Bayern",
     "IHK München",
     "DSGVO Zertifiziert",
-    "WordPress Partner",
+    "React Certified",
     "Shopify Partner"
   ];
 
