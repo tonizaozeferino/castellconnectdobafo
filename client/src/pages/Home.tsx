@@ -67,10 +67,6 @@ export default function Home() {
       answer: "Ja, alle unsere Websites entsprechen den aktuellen DSGVO-Richtlinien. Wir implementieren Cookie-Banner, Datenschutzerklärung und sichere Datenverarbeitung."
     },
     {
-      question: "Was kostet SEO für lokale Unternehmen?",
-      answer: "Unsere SEO-Pakete beginnen bei 299€/Monat und beinhalten Google My Business Optimierung, lokale Suchmaschinenoptimierung und monatliche Reports."
-    },
-    {
       question: "Bieten Sie auch Wartung und Support?",
       answer: "Ja, wir bieten umfassende Wartungsverträge mit regelmäßigen Updates, Backups, Sicherheitschecks und technischem Support – damit Sie sich auf Ihr Business konzentrieren können."
     }

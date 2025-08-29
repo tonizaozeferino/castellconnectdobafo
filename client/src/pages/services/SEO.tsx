@@ -91,10 +91,6 @@ export default function SEO() {
       answer: "Erste Verbesserungen sind meist nach 3-4 Monaten sichtbar. Für stabile Top-Rankings sollten Sie 6-12 Monate einplanen. Lokale SEO-Maßnahmen wirken oft schneller als überregionale Optimierungen."
     },
     {
-      question: "Was kostet professionelle SEO-Betreuung?",
-      answer: "Unsere SEO-Pakete beginnen bei 299€/Monat für lokale Unternehmen. Der Preis richtet sich nach Wettbewerbsintensität, gewünschten Keywords und Umfang der Betreuung."
-    },
-    {
       question: "Kann ich SEO auch selbst machen?",
       answer: "Grundlegende SEO-Maßnahmen können Sie lernen, aber professionelle SEO erfordert ständige Weiterbildung, Tools und Erfahrung. Wir empfehlen die Zusammenarbeit mit Experten für nachhaltige Ergebnisse."
     },

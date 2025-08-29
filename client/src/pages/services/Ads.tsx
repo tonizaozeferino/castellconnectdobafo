@@ -131,10 +131,6 @@ export default function Ads() {
       answer: "Das hängt von Ihrer Zielgruppe ab. Google Ads eignet sich für aktive Suchende (Pull-Marketing), Facebook/Instagram für passive Zielgruppen (Push-Marketing). Oft ist eine Kombination optimal."
     },
     {
-      question: "Welche Kosten entstehen zusätzlich zum Werbebudget?",
-      answer: "Zusätzlich zum Werbebudget berechnen wir eine Management-Fee von 15-20% des Budgets (min. 299€/Monat). Dies beinhaltet Kampagnen-Management, Optimierung und Reporting."
-    },
-    {
       question: "Können Sie garantierte Ergebnisse versprechen?",
       answer: "Seriöse Agenturen können keine garantierten Ergebnisse versprechen, da zu viele Faktoren außerhalb unserer Kontrolle liegen. Wir arbeiten jedoch mit klaren KPIs und optimieren kontinuierlich für bestmögliche Performance."
     }
