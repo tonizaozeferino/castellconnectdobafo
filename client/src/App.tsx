@@ -25,7 +25,6 @@ import About from "@/pages/About";
 import Contact from "@/pages/Contact";
 import Analysis from "@/pages/Analysis";
 import Portal from "@/pages/Portal";
-import Career from "@/pages/Career";
 import Newsletter from "@/pages/Newsletter";
 import FAQ from "@/pages/FAQ";
 import Legal from "@/pages/Legal";
@@ -60,7 +59,6 @@ function Router() {
         <Route path="/kontakt" component={Contact} />
         <Route path="/analyse" component={Analysis} />
         <Route path="/portal" component={Portal} />
-        <Route path="/karriere" component={Career} />
         <Route path="/newsletter" component={Newsletter} />
         <Route path="/faq" component={FAQ} />
         <Route path="/rechtliches" component={Legal} />
