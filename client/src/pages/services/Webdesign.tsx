@@ -70,10 +70,6 @@ export default function Webdesign() {
       answer: "Wir migrieren alle wichtigen Inhalte Ihrer bestehenden Website. Dabei optimieren wir Texte für SEO und passen sie an das neue Design an. Ihre Domain bleibt bestehen."
     },
     {
-      question: "Wie lange dauert die Website-Entwicklung?",
-      answer: "Eine Standard-Website benötigt 3-4 Wochen, komplexere Projekte mit Online-Shop oder Buchungssystem 6-8 Wochen. Der genaue Zeitrahmen wird im Beratungsgespräch definiert."
-    },
-    {
       question: "Ist die Website für Suchmaschinen optimiert?",
       answer: "Ja, alle Websites werden von Grund auf SEO-optimiert erstellt. Das beinhaltet technische SEO, optimierte Ladezeiten, mobile Optimierung und grundlegende On-Page-Optimierungen."
     }
